@@ -5,9 +5,11 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Rede de Bravis}{4}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Rede Rec\IeC {\'\i }proca}{4}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}Primeira zona de Brillouin}{5}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Superf\IeC {\'\i }cie de Fermi}{6}{subsubsection.2.1.4}
 \contentsline {subsection}{\numberline {2.2}Equa\IeC {\c c}\IeC {\~a}o de Schr\IeC {\"o}dinger e An\IeC {\'a}lise da Part\IeC {\'\i }cula em uma Caixa}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Hamiltoniano de um Cristal Perfeito}{7}{subsubsection.2.2.1}
-\contentsline {subsection}{\numberline {2.3}Alguns detalhes}{9}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Detalhes ainda mais detalhados}{9}{subsubsection.2.3.1}
-\contentsline {section}{Refer\IeC {\^e}ncias}{9}{section*.2}
+\contentsline {subsection}{\numberline {2.3}Potencial Peri\IeC {\'o}dico e Teorema de Bloch}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Potencial Peri\IeC {\'o}dico}{9}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Teorema de Bloch}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Condi\IeC {\c c}\IeC {\~a}o de Contorno de Born-Von Karman}{10}{subsubsection.2.3.3}
+\contentsline {subsection}{\numberline {2.4}Teoria de Bandas nos S\IeC {\'o}lidos}{11}{subsection.2.4}
+\contentsline {section}{Refer\IeC {\^e}ncias}{11}{section*.2}

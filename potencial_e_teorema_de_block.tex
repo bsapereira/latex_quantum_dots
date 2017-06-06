@@ -1,0 +1,117 @@
+\par Para entender as propriedades eletrônicas dos pontos quânticos, uma análise de semicondutores Bulk (não confinados) é necessária. Como calcular o estado eletrônico para esses materiais é algo complexo, utilizam-se aproximações. Umas dessas aproximações consiste na observação do comportamento de um elétron, assumindo que todos os outros fazem parte dos íons que criam o potencial periódico.
+
+\subsubsection{Potencial Periódico}
+
+	\par A hamiltoniana\cite{qm_fis5} de um sólido contém tanto os potenciais monoeletrônicos quanto os potenciais de par. O primeiro descreve as interações dos elétrons com os núcleos e o segundo, as interações entre os elétrons. 
+
+	\par Para o elétron independente, essas interações são representadas por um potencial efetivo monoeletrônico $U(\mathbf{r})$. Independente da forma desse potencial, se o cristal for perfeitamente periódico, ele deve satisfazer a seguinte equação:
+
+	\begin{equation}
+		\label{bloch_1}
+		U(\mathbf{r}+\mathbf{R}) = U(\mathbf{R})
+	\end{equation}
+
+	Para o caso do elétron livre, $U(\mathbf{R})$ é zero, caracterizando o caso mais simples de um periódico. Assim, a equação de Schrödinger para o elétron livre se reduz à equação \eqref{bloch_1}. O vetor \textbf{r} está relacionado à célula primitiva, enquanto \textbf{R} indica os pontos de uma rede de Bravais\cite{qm_fis2}.
+
+\subsubsection{Teorema de Bloch}
+
+	\par O teorema de Bloch\cite{qm_fis5} afirma que os autoestados $\Psi$ podem ser escritos como uma onda plana vezes uma função de periodicidade para elétrons independentes, considerando que sobre eles atua um potencial periódico em uma rede de Bravais
+
+	\begin{equation}
+		\label{bloch_2}
+		\Psi_{nk}(\mathbf{r})= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot U_{nk}(\mathbf{r})
+	\end{equation}
+
+	As equações \eqref{bloch_1} e \eqref{bloch_2} implicam em:
+
+	\begin{align}
+		\label{bloch_3}
+		\Psi_{nk}(\mathbf{R} + \mathbf{r}) &= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot U_{nk}(\mathbf{R} + \mathbf{r})\\
+		\Psi(\mathbf{R} + \mathbf{r}) &= e^{i\mathbf{k} \cdot \mathbf{R}}\cdot \Psi(\mathbf{r})
+	\end{align}
+
+	\par Os subíndices $n$ e $k$ serão explicados no final da prova do Teorema de Bloch, mas sua omissão não comprometará o entendimento do desenvolvimento a seguir.
+
+
+
+	\subsubsection{Condição de Contorno de Born-Von Karman}
+
+	\par Serão aplicadas as condições de contorno para que as funções de onda sejam periódicas.
+	
+	\par No caso tridimensional,
+
+	\begin{align}\label{bloch_4}
+        \left\{
+          \begin{array}{ll}
+            \displaystyle \Psi(x+L, y, z) &= \Psi(x, y, z)\\
+            \displaystyle \Psi(x, y+L, z) &= \Psi(x, y, z)\\
+            \displaystyle \Psi(x, y, z+L) &= \Psi(x, y, z)
+          \end{array}
+        \right.
+      \end{align}
+	
+	\par A equação (2.5) é conhecida como condição de contorno de Born-Von Karman de periodicidade macroscópica.  Como nem sempre a rede de Bravais é cúbica, generaliza-se a condição de contorno para:
+
+	\begin{equation}
+		\label{blochh_5}
+		\Psi(\mathbf{r} + N i\cdot \mathbf{a}_{i}) = \Psi(\mathbf{r}),\ i=1,2,3\ ,
+	\end{equation}
+	no qual $\mathbf{a}_{i}$ são os vetores primitivos da rede direta e $Ni$ são números inteiros, de forma que:
+
+	\begin{equation}
+		\label{bloch_6}
+		N1 \cdot N2 \cdot N3 = N,
+	\end{equation}
+	onde N é o número total de células primitivas no cristal.
+
+	\par Aplicando o Teorema de Bloch, obtém-se:
+
+	\begin{equation}
+		\label{bloch_7}
+		\Psi(\mathbf{r} + Ni \cdot \mathbf{a}_{i}) = e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} \cdot \Psi(\mathbf{r})
+	\end{equation}
+
+	\par A equação \eqref{bloch_7} será válida para:
+
+	\begin{equation}
+		\label{bloch_8}
+		e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} = 1,\ i=1,2,3
+	\end{equation}
+
+	\par A partir do mesmo desenvolvimento feito, tem-se que:
+
+	\begin{equation}
+		\label{bloch_9}
+		\mathbf{k} \cdot \mathbf{a}_{i} = 2 \pi \mathbf{k} i
+	\end{equation}
+
+	\par Substituindo \eqref{bloch_9} em \eqref{bloch_8}, tem-se que:
+
+	\begin{equation}
+		\label{bloch_10}
+		e^{i\cdot N i 2 \pi \mathbf{k} i} = 1
+	\end{equation}
+
+	\par Uma exponencial complexa pode ser escrita em função de senos e cossenos, através da fórmula de Euler (REF: ARFKEN - FIS MAT). Observa-se que a relação acima será válida sempre que $2\pi$ estiver sendo multiplicado por um número inteiro. Como $Ni$ é um número inteiro e $\mathbf{k}i$ também, pode-se definir $\mathbf{k}i$ em função de $Ni$:
+
+	\begin{equation}
+		\label{bloch_11}
+		\mathbf{k} = \sum_{i=1}^3 \frac{mi}{Ni} \cdot \mathbf{b}i,\ onde\ mi\ é\ inteiro.
+	\end{equation}
+
+	\par É definido que o elemento de volume, ou seja, o menor volume $\Delta\mathbf{k}$ da rede recíproca é formado pelo paralelepípedo com arestas $\frac{bi}{Ni}$, que pode ser escrito pelo produto misto:
+
+	\begin{equation}
+		\label{bloch_12}
+		\Delta \mathbf{k} = \frac{\mathbf{b1}}{N1} \cdot \left( \frac{\mathbf{b2}}{N2} x \frac{\mathbf{b3}}{N3} \right)
+			= \frac{1}{N} \cdot \mathbf{b1} \cdot \left(\mathbf{b2} x \mathbf{b3}\right)
+	\end{equation}
+
+	\par O volume de uma célula primitiva da rede recíproca é definido por $\mathbf{b1} \cdot \left(\mathbf{b2} x \mathbf{b3}\right) = \frac{8\pi^3}{v}$, e o volume de uma célula primitiva da rede direta por v=VN. Logo, a equação \eqref{bloch_12} pode ser reescrita por:]
+
+	\begin{equation}
+		\label{bloch_13}
+		\Delta \mathbf{k} = \frac{8\pi^3}{V}
+	\end{equation}
+
+	\par Esta equação será retomada no próximo tópico.
