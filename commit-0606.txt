@@ -1,0 +1,112 @@
+Introdução
+ 
+                Pontos quânticos são nanopartículas semicondutoras, que por terem o tamanho reduzido, se comportam como se estivessem sujeitas à um poço de potencial. Isso faz com que elétrons e buracos sofram um forte confinamento quântico nas três dimensões espaciais. Devido a esse confinamento, eles têm sua energia quantizada em valores discretos, como em um átomo, por isso pontos quânticos são também são chamados de átomos artificiais. REFERÊNCIA -> http://www.infis.ufu.br/sites/infis.ufu.br/files/Anexos/Bookpage/TCC%20F%C3%8DSICA%20DE%20MATERIAIS%202009_2%20-%20ANDRE%20REZENDE.pdf
+           A história dessas nanopartículas começa em 1980 em um artigo publicado pelo físico russo, Ekimov. Seu trabalho foi baseado no estudo de efeitos quânticos de tamanho em cristais semicondutores microscópicos em três dimensões. Segundo Ekimov:
+“Apresentamos a descoberta e a espectroscopia de uma nova classe de objetos que exibem efeitos quânticos de tamanho: cristais microscópicos tridimensionais de compostos semicondutores crescidos em uma matriz dielétrica transparente.”
+            Apesar de tratar como uma nova classe de objetos, Ekimov não os denomina nem os trata como pontos quânticos.
+            Durante seu estudo, ao realizar a absorção espectral de três amostras de cristais microscópicos com raios diferentes, observou uma dependência na posição espectral das linhas de absorção, onde supôs se tratar de um efeito quântico ocorrido devido ao tamanho da partícula, e complementa:
+“Os portadores de carga na matriz dielétrica estão presos em um poço de potencial onde as paredes são limitadas pelo cristal microscópico.”
+            Ele assume que esse poço de potencial é simétrico e esférico, mas não se aprofunda no tópico.
+            Foi apenas em 1984 que Luis Brus, apresentando uma relação entre o tamanho e o gap de energia de nanopartículas semicondutoras ao aplicar uma aproximação de um modelo esférico na função de onda de um semicondutor Bulk para uma partícula, começa a dar forma ao conceito que futuramente será denominado ponto quântico.
+            No artigo, Brus considera cristalitos suficientemente pequenos de modo que os níveis de energia Bulk não sejam válidos e afirma:
+“Conforme os cristalitos se aproximam do tamanho da excitação 1S, as interações elétron-buraco com a superfície destes cristalitos dominam a dinâmica. Neste limite molecular, a energia dependerá do tamanho e forma dos cristalitos e da natureza do material.”
+        Apesar dos avanços nos estudos de Brus, levou cerca de uma década para que o ponto quântico voltasse a ser estudado, quando Murray, durante seu estudo sobre evolução de propriedades de materiais pelo tamanho de cristalitos nanométricos, afirma que o regime de tamanhos intermediários dos cristalitos afetam o comportamento de materiais Bulk, emergindo a natureza discreta das propriedades moleculares deles.
+            O objetivo de Murray era estudar estes diferentes regimes para observar e, se possível, controlar certos comportamentos como efeitos ópticos de estados excitados altamente polarizados ou comportamento fotoquímico.
+            Já era conhecido que as propriedades físicas desses nanocristais semicondutores eram regidas por confinamentos espaciais de excitação e, apesar do progresso de certos semicondutores, a interpretação dos dados experimentais era complicada de ser analisada devido a problemas na superfície derivacional e baixa cristalinidade destes materiais.
+            Murray se concentra na síntese e caracterização de nanocristais semicondutores de CdSe, devido às propriedades ópticas e eletroquímicas deste material, resultando futuramente em sínteses coloidais de compostos CdX (X= S, Se, Te) que permearam os estudos em pontos quânticos e suas aplicações.
+            O problema encontrado futuramente foi a aplicação destes compostos na área biomédica, em que a toxicidade dos íons de Cádmio precisou ser reduzida, bem como melhorar a estabilidade dos núcleos destes nanocristais.
+            Passou-se a introduzir camadas de átomos com semicondutores com gap de banda maior para encapsular o núcleo das nanopartículas, formando então nanocristais núcleo-casca. Devido a essa mudança, a eficiência luminescente foi melhorada e estudada por Hines e Guyot-Sionnest em 1996 na caracterização da alta luminescência de nanocristais de CdSe encapsulados em ZnS.
+            Estas melhorias ao longo dos anos como encapsulação dupla do núcleo, introdução de ácidos mercapto-carboxílicos, possibilitaram a solubilidade e eficiência fotoluminescente em solventes orgânicos e água, além de proporcionar uma gama de aplicações dos pontos quânticos.
+Para que se possa estudar os pontos quânticos, suas propriedades e aplicações, é necessário o entendimento de conceitos relacionados à mecânica quântica e física do estado sólido, que serão apresentados a seguir. 
+ 
+ 
+ 
+
+Introdução a Mecânica Quântica e Física do Estado Sólido
+       
+A mecânica quântica foi desenvolvida com o intuito de descrever fenômenos na escala microscópica, que não conseguiam ser explicados pela mecânica clássica, pois essa descreve apenas sistemas macroscópicos. A física do estado sólido utiliza os resultados da mecânica quântica para o estudo de sistemas com muitos átomos ligados entre si, o que possibilitou o desenvolvimento tecnológico em diversas áreas, como eletrônica, biomedicina, nanociência, computação quântica, entre outros [referencia QM with applications to nanotech and information]. 
+2.1. Rede Cristalina
+      Rede cristalina é a designação dada para o conjunto ordenado de partículas que constituem um sólido. Cada cristal é constituído de células unitárias semelhantes que se repetem ao longo do material. A rede cristalina pode ser descrita pela rede de Bravais e pela rede recíproca. [ livro [REBECCA]]   
+2.1.1. Rede de Bravais 
+Considerando-se uma rede cristalina infinita, o arranjo periódico dos átomos dessa rede pode ser descrito pela rede de Bravais, sendo que a posição de cada átomo é considerada um ponto em um espaço tridimensional (também pode ser representado na forma bidimensional). A rede de Bravais é o arranjo de todos esses pontos e a posição de cada ponto pode ser definida por um vetor R: 
+R = n1.a1+n2.a2+n3.a3 (1)
+ Onde a1, a2, a3 são vetores não coplanares, ou seja, são linearmente independentes, e são conhecidos como vetores primitivos;  n1,n2,n3 são números inteiros.
+A rede de Bravais tem a característica de que independente do ponto escolhido para definir o vetor R, há sempre uma preservação da orientação, ou seja, a rede cristalina é a mesma independente de onde se observa. [Ashcroft]
+2.1.2. Rede Recíproca 
+Dado o conjunto de pontos R que constituem uma rede de Bravais e uma onda plana exp(i.k.r), tem-se que para certos vetores de onda k, a onda plana assume a periodicidade da rede de Bravais. Esse conjunto de vetores, dado por K, é conhecido como rede recíproca da rede de Bravais.  
+Como a questão da periodicidade é válida, a relação 
+ exp[i.K.(r+R)]= exp(i.K.r) (2) 
+deve ser satisfeita.
+Para que a equação (2) seja válida, tem-se que 
+exp[i.K.(R)]* exp(i.K.r)= exp(i.K.r)
+exp[i.K.(R)]=1 (3) *ian* isso no latex fica e^{i\cdot\mathbf{K}\mathbf{r}}
+Ou seja, a rede recíproca pode ser caracterizada pelo conjunto de vetores K que satisfazem a relação (3). 
+Como a rede recíproca é definida a partir da rede de Bravais, a segunda é conhecida como rede direta.
+Os vetores da rede recíproca estão relacionados com os vetores primitivos a partir de
+ b1=2π (a2xa3)/(a1.(a2xa3))
+    b2=2π (a3xa1)/(a1.(a2xa3))    
+b3=2π (a1xa2)/(a1.(a2xa3))
+e devem satisfazer 
+ bi.aj = 2πδij (4)
+em que δij representa o delta de Kronecker, o qual estabelece a seguinte relação:
+δij=0 i≠j
+δij=1 i=j
+Pode-se escrever o vetor K como 
+     K=k1.b1+k2.b2+k3.b3 (5)
+De (1) e (5), tem-se 
+K.R= (k1.b1+k2.b2+k3.b3). (n1.a1+n2.a2+n3.a3)
+Aplicando a equação (4), obtém-se
+K.R= 2π(k1.n1+k2.n2+k3.n3) (6)
+Para que a exp(i.K.R) seja igual a um, K.R deve ser múltiplo inteiro de 2π. Como os coeficientes ni são inteiros, os coeficientes ki também devem ser. Então K será um vetor da rede recíproca sempre que puder ser escrito como uma combinação linear de vetores bi com coeficientes inteiros. Assim, a rede recíproca é uma rede de Bravais, ao considerar esses vetores como sendo os vetores primitivos. Um ponto importante é que a recíproca da rede recíproca corresponde a rede direta original. (ASHCROFT)
+2.1.3 Primeira zona de Brillouin 
+Define-se primeira zona de Brillouin como o menor volume limitado por planos que são perpendiculares nos pontos médios, aos vetores da rede recíproca que ligam um ponto aos seus vizinhos. (KITTEL) Existem outras zonas de Brillouin de ordens maiores, que correspondem a diferentes tipos de células primitivas. Elas são úteis para o estudo de um potencial periódico na teoria dos níveis eletrônicos. (ASHCROFT)
+Considerando-se todos os vetores k na primeira zona de Brillouin, e um vetor k+K, sendo K um vetor qualquer na rede recíproca, pode-se inferir que o módulo da função de onda de k+K é igual ao módulo da função de onda  de k [Livro Rebeca]. Esse resultado está relacionado à periodicidade da rede recíproca, que será abordada posteriormente. [Livro Rebeca]
+ 
+2.1.4 Superfície de Fermi 
+A energia de Fermi é definida como a maior energia para a qual há um estado ocupado. Existe uma superfície de mesma energia no espaço recíproco igual à energia de fermi, que separa os níveis de energia de estados ocupados dos não ocupados. Para diferentes energias, conjunto dessas superfícies são conhecidas como superfícies de Fermi.
+ 
+2.2.  Equação de Schrödinger e Análise da Partícula em uma Caixa
+ 
+A dualidade onda-partícula de um elemento na escala atômica é uma propriedade básica descrita pela mecânica quântica [EISBERG, Robert Martin; RESNICK, Robert - Física Quântica]. Quando as partículas são tratadas como ondas, a função de onda (ψ) é utilizada para formalizar seu deslocamento e amplitude [C.W. Sherwin-Introduction to quantum mechanics - Holt, Rinehart & Winston of Canada Ltd (1959)]. A densidade de probabilidade (|ψ|²) é utilizada quando se deseja encontrar a probabilidade de uma partícula estar em um determinado local.
+Para conseguir descrever um sistema quântico matematicamente, Erwin Schrödinger desenvolveu a principal equação em torno da mecânica quântica, conhecida como equação de Schrödinger, que está escrita a seguir: 
+H.Ѱ(r)=[-ћ22m∇2 + U(r)].Ѱ(r)=E.Ѱ(r) (2.0)
+Na equação (2.0), H é o operador hamiltoniano - que será trabalhado mais a frente - e o termo  -ћ22m∇2 é o operador momento, no qual ∇2é o Laplaciano que representa a segunda derivada (d² [ARRUMAR A NOTAÇÃO]). Além disso, U(r) é o potencial da partícula em uma dada posição r. 
+O termo E é a energia da partícula no estado que ela se encontra, sendo um autovalor na equação de Schrödinger que está associado ao autovetor da função de onda.
+Para exemplificar a relação autovalor-autovetor e para que se deixe claro o conceito de quantização de níveis de energia , será considerado o modelo de uma partícula confinada em uma caixa unidimensional em x = [0,L]. Esse é o modelo mais simples que se pode analisar na mecânica quântica. Supondo que a equação de onda para essa partícula possa ser descrita por uma função de onda estacionária, pode-se escrever Ѱ(x)como:
+Ѱ(x)=(1/L)1/2sin(n*pi*x/L), com n = 1, 2, …    (2.0.1)
+Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura 1 [ATKINS].
+ 
+ 
+ 
+Através da equação de Schrödinger, da definição clássica da função de onda (x),
+(x) = Asin(kx)+Bcos(kx) (2.0.2)
+e das condições de contorno para o problema em questão, é possível concluir que:
+E= h²8π²mn²π²L²=h²n²8mL², com n=1, 2, ... (2.0.3)
+
+Fig. 1: Formas da função de onda para valores de n entre 1 e 6
+Como n  Ｚ\ 0, a equação (2.0.3) mostra que somente alguns valores para energia do elétron são aceitos no confinamento dentro de uma caixa de tamanho L. A partir disso, conclui-se que os níveis de energia de uma partícula confinada são discretos e que a energia pode ser quantizada [ATKINS].
+    Para definir o operador hamiltoniano utilizado para descrever partículas num cristal, começaremos do cristal perfeito, que descreve de maneira geral as relações entre as partículas nesse sistema. A partir dele, serão feitas aproximações para que se chegue no hamiltoniano do elétron livre. (LIVRO REBECA). 
+2.2.1 Hamiltoniano de um Cristal Perfeito
+Para definir o operador hamiltoniano utilizado para descrever partículas num cristal, começaremos do cristal perfeito, que descreve de maneira geral as relações entre as partículas nesse sistema. A partir dele, serão feitas aproximações para que se chegue no hamiltoniano do elétron livre. (LIVRO REBECA). 
+O hamiltoniano do cristal perfeito [YU-CARDONA] é dado por:
+     H=ipi22m∇2 +jpj22mj+12j',j'ZjZj'e24πε0|Rj-Rj'|-j,iZje24πε0|ri-Rj|+12i,i''e24πε0|ri-ri'| (2.1)
+    Na expressão (2.1) ε0 representa a permissividade no vácuo, ri representa a posição do i-ésimo elétron, Rj representa a posição do j-ésimo núcleo, Zj representa o número atômico do núcleo, pi e pj representam o operador momento dos elétrons e o operador momento do núcleo, respectivamente. Além disso, Σ' significa uma soma somente com índices não idênticos.
+    Para solucionar o hamiltoniano, leva-se em conta que os elétrons nas camadas totalmente preenchidas estão muito próximos ao núcleo, considerando-os como um pacote. Essa junção de elétrons mais internos com o núcleo atômico forma o que se chama por íon-núcleo.
+    A partir disso, serão aplicadas duas aproximações para facilitar a solução do hamiltoniano. A primeira será a aproximação de Born-Oppenheimer [STUART RICE].
+    Essa aproximação divide os átomos em duas grandes regiões. A primeira região trata o núcleo como uma partícula estática no espaço. Já a segunda região lida somente com as partículas na superfície do sistema.
+    Aplicando a aproximação de Born-Oppenheimer ao hamiltoniano, pode-se separar os cálculos entre os íons-núcleo e os elétrons na camada de valência. Assim, simplifica-se o hamiltoniano como uma soma de hamiltonianos da relação entre os elétrons de valências, entre os íons-núcleo e entre ambas regiões, da seguinte maneira:
+H=Híons(Rj)+He(ri,Rj0)+He-íon(ri,δRj) (2.2)
+    Nessa expressão, Híons(Rj) é o hamiltoniano referente às interações entre os íons-núcleo que se movimentam devido aos seus potenciais iônicos; He(ri,Rj0) é o hamiltoniano referente às interações elétron-elétron, considerando os íons-núcleo estáticos e congelados na posição de equilíbrio Rj0; He-íon(ri,δRj) é o hamiltoniano que descreve a interação elétron-íon, caracterizando a variação na energia eletrônica causada pelo deslocamento δRj dos íons-núcleo em relação ao seu ponto de equilíbrio Rj0.
+    Escrevendo o hamiltoniano do cristal perfeito, retirando os termos referentes unicamente ao núcleo e mantendo as interações elétron-elétron, obtém-se:
+He=ipi22mi+12i,i''e24πε0|ri-ri'|-i,jZje24πε0|ri-Rj0| (2.3)
+    Para simplificar a equação (2.3), será utilizada a aproximação mean-field [ELBIO DAGOTTO]. Essa aproximação consiste na escolha de um local arbitrário para o elétron no sistema e na consideração de que os outros graus de liberdade se encontram estáticos se utilizarmos seu valor médio. Aplicando o hamiltoniano somente em um elétron, tem-se que:
+H1e=p22m (2.4)
+    Considerando que o operador momento, na mecânica quântica, é definido por [RODRIGUES 1997 - http://sbfisica.org.br/rbef/pdf/v19_68.pdf]:
+p=-iћddxp²=-ћ²d²dx²p²=-ћ²∇²(2.5)
+Aplicando a relação 2.5 na equação 2.4:
+H1e=-ћ²2m∇²  (2.6)
+    Estando definido assim, o operador hamiltoniano para o caso considerado. Aplicando a equação de Schrödinger ao caso do elétron livre, no qual o potencial U(r) é igual a zero, tem-se que:
+H.Ѱ(r)= -ћ22m∇2 Ѱ(r)=E.Ѱ(r)(2.7)
+Com autovalores de energia dados por:
+ (2.8)
+Em uma rede cristalina, o elétron sofre influência de um potencial. Esse potencial pode ser tratado como um potencial periódico [ASHCROFT] em alguns casos e será explicado a seguir.
