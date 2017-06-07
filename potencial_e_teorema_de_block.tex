@@ -36,82 +36,163 @@
 
 	\subsubsection{Condição de Contorno de Born-Von Karman}
 
-	\par Serão aplicadas as condições de contorno para que as funções de onda sejam periódicas.
+		\par Serão aplicadas as condições de contorno para que as funções de onda sejam periódicas.
+		
+		\par No caso tridimensional,
+
+		\begin{align}\label{bloch_4}
+	        \left\{
+	          \begin{array}{ll}
+	            \displaystyle \Psi(x+L, y, z) &= \Psi(x, y, z)\\
+	            \displaystyle \Psi(x, y+L, z) &= \Psi(x, y, z)\\
+	            \displaystyle \Psi(x, y, z+L) &= \Psi(x, y, z)
+	          \end{array}
+	        \right.
+	      \end{align}
+		
+		\par A equação (2.5) é conhecida como condição de contorno de Born-Von Karman de periodicidade macroscópica.  Como nem sempre a rede de Bravais é cúbica, generaliza-se a condição de contorno para:
+
+		\begin{equation}
+			\label{blochh_5}
+			\Psi(\mathbf{r} + N i\cdot \mathbf{a}_{i}) = \Psi(\mathbf{r}),\ i=1,2,3\ ,
+		\end{equation}
+		no qual $\mathbf{a}_{i}$ são os vetores primitivos da rede direta e $Ni$ são números inteiros, de forma que:
+
+		\begin{equation}
+			\label{bloch_6}
+			N1 \cdot N2 \cdot N3 = N,
+		\end{equation}
+		onde N é o número total de células primitivas no cristal.
+
+		\par Aplicando o Teorema de Bloch, obtém-se:
+
+		\begin{equation}
+			\label{bloch_7}
+			\Psi(\mathbf{r} + Ni \cdot \mathbf{a}_{i}) = e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} \cdot \Psi(\mathbf{r})
+		\end{equation}
+
+		\par A equação \eqref{bloch_7} será válida para:
+
+		\begin{equation}
+			\label{bloch_8}
+			e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} = 1,\ i=1,2,3
+		\end{equation}
+
+		\par A partir do mesmo desenvolvimento feito, tem-se que:
+
+		\begin{equation}
+			\label{bloch_9}
+			\mathbf{k} \cdot \mathbf{a}_{i} = 2 \pi \mathbf{k} i
+		\end{equation}
+
+		\par Substituindo \eqref{bloch_9} em \eqref{bloch_8}, tem-se que:
+
+		\begin{equation}
+			\label{bloch_10}
+			e^{i\cdot N i 2 \pi \mathbf{k} i} = 1
+		\end{equation}
+
+		\par Uma exponencial complexa pode ser escrita em função de senos e cossenos, através da fórmula de Euler. Observa-se que a relação acima será válida sempre que $2\pi$ estiver sendo multiplicado por um número inteiro. Como $Ni$ é um número inteiro e $\mathbf{k}i$ também, pode-se definir $\mathbf{k}i$ em função de $Ni$:
+
+		\begin{equation}
+			\label{bloch_11}
+			\mathbf{k} = \sum_{i=1}^3 \frac{mi}{Ni} \cdot \mathbf{b}i,\ onde\ mi\ é\ inteiro.
+		\end{equation}
+
+		\par É definido que o elemento de volume, ou seja, o menor volume $\Delta\mathbf{k}$ da rede recíproca é formado pelo paralelepípedo com arestas $\frac{bi}{Ni}$, que pode ser escrito pelo produto misto:
+
+		\begin{equation}
+			\label{bloch_12}
+			\Delta \mathbf{k} = \frac{\mathbf{b1}}{N1} \cdot \left( \frac{\mathbf{b2}}{N2} x \frac{\mathbf{b3}}{N3} \right)
+				= \frac{1}{N} \cdot \mathbf{b1} \cdot \left(\mathbf{b2} x \mathbf{b3}\right)
+		\end{equation}
+
+		\par O vetor de onda pode ser escrito como $k=\frac{2\pi}{a}$, em que a é o parâmetro de rede da célula unitária. Assim, obtém-se $k^3=\frac{8\pi^3}{a^3}$, ou seja, $k^3=\frac{8\pi^3}{v}$, em que $v$ é o volume de uma célula primitiva na rede direta. Esse volume também é dado por $v=\frac{V}{N}$, onde $V$ representa o volume associado ao número de sítios da rede. Como o produto misto dos vetores $\mathbf{bi}$ representa o volume $k^3$. Logo, a equação \eqref{bloch_12} pode ser reescrita por:
+
+		\begin{equation}
+			\label{bloch_13}
+			\Delta \mathbf{k} = \frac{8\pi^3}{V}
+		\end{equation}
+
+		\par Ao construir o teorema de Bloch para esse volume, ele se torna válido para toda a rede cristalina devido a sua periodicidade.
+
+	\subsubsection{Prova do Teorema de Bloch}
+
+	\par Para realizar a prova desse teorema, parte-se do princípio de que qualquer função que atenda às condições de Born-Von Karman pode ser expandida em ondas planas, sendo que essa expansão é feita por séries de Fourier. 
 	
-	\par No caso tridimensional,
+	\par Expandindo o potencial com periodicidade na rede de Bravais e a função de onda em ondas planas, obtém-se, respectivamente: 
 
-	\begin{align}\label{bloch_4}
-        \left\{
-          \begin{array}{ll}
-            \displaystyle \Psi(x+L, y, z) &= \Psi(x, y, z)\\
-            \displaystyle \Psi(x, y+L, z) &= \Psi(x, y, z)\\
-            \displaystyle \Psi(x, y, z+L) &= \Psi(x, y, z)
-          \end{array}
-        \right.
-      \end{align}
-	
-	\par A equação (2.5) é conhecida como condição de contorno de Born-Von Karman de periodicidade macroscópica.  Como nem sempre a rede de Bravais é cúbica, generaliza-se a condição de contorno para:
+	\begin{align}\label{bloch_14}
+	      \begin{array}{ll}
+	        \displaystyle U(\mathbf{r}) &= \sum_{\mathbf{K}} U_{\mathbf{K}} e^{i\mathbf{K}\cdot \mathbf{r}}\\
+	        \displaystyle \Psi(\mathbf{r}) &= \sum_{\mathbf{K}} C_{\mathbf{k}} e^{i\mathbf{k}\cdot \mathbf{r}}	            
+	      \end{array}
+  \end{align}
 
-	\begin{equation}
-		\label{blochh_5}
-		\Psi(\mathbf{r} + N i\cdot \mathbf{a}_{i}) = \Psi(\mathbf{r}),\ i=1,2,3\ ,
-	\end{equation}
-	no qual $\mathbf{a}_{i}$ são os vetores primitivos da rede direta e $Ni$ são números inteiros, de forma que:
+	onde $C_{\textbf{k}}$ e $U_{\textbf{K}}$ são coeficientes.
 
-	\begin{equation}
-		\label{bloch_6}
-		N1 \cdot N2 \cdot N3 = N,
-	\end{equation}
-	onde N é o número total de células primitivas no cristal.
+	\par Assim, tem-se
 
-	\par Aplicando o Teorema de Bloch, obtém-se:
+	\begin{align}\label{bloch_15}
+	      \begin{array}{ll}
+	        \displaystyle \frac{\partial \Psi(\mathbf{r})}{\partial\mathbf{r}} &= \sum_{\mathbf{K}} C_{\mathbf{k}} ik e^{i\mathbf{k}\cdot \mathbf{r}}\\
+	        \displaystyle \frac{\partial^2 \Psi(\mathbf{r})}{\partial\mathbf{r}^2} &= -\sum_{\mathbf{K}} C_{\mathbf{k}} k^2 e^{i\mathbf{k}\cdot \mathbf{r}}	            
+	      \end{array}
+  \end{align}
+
+	Substituindo as equações de \eqref{bloch_15} na equação de Schrödinger \eqref{eq_schrodinger_frustrado}, tem-se que
 
 	\begin{equation}
-		\label{bloch_7}
-		\Psi(\mathbf{r} + Ni \cdot \mathbf{a}_{i}) = e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} \cdot \Psi(\mathbf{r})
+		\label{bloch_16}
+		\sum_{\mathbf{K}} C_{\mathbf{k}} k^2 e^{i\mathbf{k}\cdot \mathbf{r}} \cdot \frac{\hbar}{2m}
+			+ \sum_{\mathbf{K}} C_{\mathbf{k}} ik e^{i\mathbf{k}\cdot \mathbf{r}}
+			= E \cdot \sum_{\mathbf{K}} C_{\mathbf{k}} e^{i\mathbf{k}\cdot \mathbf{r}}
 	\end{equation}
 
-	\par A equação \eqref{bloch_7} será válida para:
+	Reorganizando os termos para que se consiga colocar $e^{i\mathbf{k}\cdot \mathbf{r}}$ em evidência:
 
 	\begin{equation}
-		\label{bloch_8}
-		e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} = 1,\ i=1,2,3
+		\label{bloch_17}
+		\sum_{\mathbf{k}} e^{i\mathbf{k}\cdot \mathbf{r}}
+			\left[ 
+				C_\mathbf{k} \left( \frac{k^2 \hbar^2}{2m} - E \right)
+				+ \sum_{\mathbf{K}} \mathbf{U}_{\mathbf{K}} \cdot C_{\mathbf{k-K}}
+		   \right] = 0
 	\end{equation}
 
-	\par A partir do mesmo desenvolvimento feito, tem-se que:
+	Como a equação \eqref{bloch_17} é válida para todo $\mathbf{r}$, então
 
 	\begin{equation}
-		\label{bloch_9}
-		\mathbf{k} \cdot \mathbf{a}_{i} = 2 \pi \mathbf{k} i
+		\label{bloch_18}
+		\left( \frac{k^2 \hbar^2}{2m} - E \right)
+				+ \sum_{\mathbf{K}} \mathbf{U}_{\mathbf{K}} \cdot C_{\mathbf{k-K}} = 0
 	\end{equation}
 
-	\par Substituindo \eqref{bloch_9} em \eqref{bloch_8}, tem-se que:
+	%TODO - Confirmar referencia qm_fis2
+	\par A equação \eqref{bloch_18} é análoga à equação de Schrödinger só que para o espaço recíproco\cite{qm_fis2}. Um resultado importante obtido a partir dessa equação é que o coeficiente $C_{\mathbf{k}}$ se relaciona com os demais coeficientes\cite{qm_fis5}. Ou seja, $C\mathbf{k}$ acopla-se com $C_{\mathbf{k-K1}}$, $C_{\mathbf{k-K2}}$, etc. Isso significa que um ponto $C_{\mathbf{k}}$ da rede sofre influência de todos os outros pontos, gerando uma sobreposição das funções de onda. Isso fornece uma introdução aos níveis de energia\cite{bloch2}. É interessante observar que para $U_{\mathbf{K}} = 0$, a energia obtida é a do eĺétron livre.
+
+	\par Pode reescrever a função de onda como:
 
 	\begin{equation}
-		\label{bloch_10}
-		e^{i\cdot N i 2 \pi \mathbf{k} i} = 1
+		\label{bloch_19}
+		\Psi (\mathbf{r}) = \sum_{K} C_{\mathbf{k-K}}\cdot e^{i\mathbf{(k-K)}\cdot\mathbf{r}}
 	\end{equation}
 
-	\par Uma exponencial complexa pode ser escrita em função de senos e cossenos, através da fórmula de Euler (REF: ARFKEN - FIS MAT). Observa-se que a relação acima será válida sempre que $2\pi$ estiver sendo multiplicado por um número inteiro. Como $Ni$ é um número inteiro e $\mathbf{k}i$ também, pode-se definir $\mathbf{k}i$ em função de $Ni$:
+	\par Levando $e^{i\mathbf{k} \cdot \mathbf{r}}$ para fora do somatório:
 
 	\begin{equation}
-		\label{bloch_11}
-		\mathbf{k} = \sum_{i=1}^3 \frac{mi}{Ni} \cdot \mathbf{b}i,\ onde\ mi\ é\ inteiro.
+		\label{bloch_20}
+		\Psi (\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}} \cdot \left(\sum_{K} C_{\mathbf{k-K}}\cdot e^{-i \mathbf{K}\cdot\mathbf{r}}\right)
 	\end{equation}
 
-	\par É definido que o elemento de volume, ou seja, o menor volume $\Delta\mathbf{k}$ da rede recíproca é formado pelo paralelepípedo com arestas $\frac{bi}{Ni}$, que pode ser escrito pelo produto misto:
+	\par Da equação \eqref{bloch_20}, tem-se que a funç~ao de periodicidade $u$ é dada por:
 
 	\begin{equation}
-		\label{bloch_12}
-		\Delta \mathbf{k} = \frac{\mathbf{b1}}{N1} \cdot \left( \frac{\mathbf{b2}}{N2} x \frac{\mathbf{b3}}{N3} \right)
-			= \frac{1}{N} \cdot \mathbf{b1} \cdot \left(\mathbf{b2} x \mathbf{b3}\right)
+		\label{bloch_21}
+		u(\mathbf{r}) = \sum_{K} C_{\mathbf{k-K}}\cdot e^{-i \mathbf{K}\cdot\mathbf{r}}
 	\end{equation}
 
-	\par O volume de uma célula primitiva da rede recíproca é definido por $\mathbf{b1} \cdot \left(\mathbf{b2} x \mathbf{b3}\right) = \frac{8\pi^3}{v}$, e o volume de uma célula primitiva da rede direta por v=VN. Logo, a equação \eqref{bloch_12} pode ser reescrita por:]
+	\par Assim, provou-se o teorema de Bloch, ao encontrar uma função de periodicidade $u$ que satisfaça a equação \eqref{bloch_1}.
 
-	\begin{equation}
-		\label{bloch_13}
-		\Delta \mathbf{k} = \frac{8\pi^3}{V}
-	\end{equation}
+	\par Como o problema foi analisado para um volume fixo, que diz respeito à região da célula unitária (equação \eqref{bloch_13}), tem-se infinitas soluções para k  com autovalores discretos, indexados pelo índice de bandas $n$. As energias $En(\mathbf{K})$ varia de forma contínua à medida que $\mathbf{k}$ varia e representam os níveis de energia para o elétron em um potencial periódico. Em relação a $n$, a energia varia de forma discreta. Ao atribuir os índices $n$ para as funções de onda e para os níveis de energia, obtém-se e $\epsilon n\mathbf{k}$. As informações que essas funções contêm são chamadas de estrutura de banda. Para cada $n$, o conjunto de níveis eletrônicos é chamado de banda de energia\cite{qm_fis5}. 
 
-	\par Esta equação será retomada no próximo tópico.

@@ -1,0 +1,240 @@
+\par Com a explicação teórica do efeito Kapitza Dirac (KD) feita nos tópicos anteriores desse trabalho, o tópico atual se preocupará em mostrar uma aplicação do efeito do ponto de vista qualitativo e quantitativo, sendo portanto o objeto do estudo os interferômetros de onda-matéria que se utilizam do efeito KD.
+
+\par Para melhor compreender onde o efeito KD se aplica e traz benefícios aos interferômetros de onda-matéria, é interessante entender inicialmente o conceito de interferômetria e como se deu sua evolução do ponto de vista histórico (inicialmente com a interfeormetria ótica). Portanto, essa seção está sub dividida basicamente em quatro tópicos principais: Interferometria, interferômetros óticos, Interferometria atômica, Aplicação do efeito Kapitza Dirac aos interferômetros atômicos e interferômetros atômicos com redes de luz.
+
+\subsection{Interferometria}
+
+\par O conceito de ondas é bem estabelecido na ciência, bem como o entendimento de que ondas podem causar e sofrer interações. As interações que ondas podem sofrer são classificadas como construtivas e destrutivas quando sobrepostas, sendo essas interferências dependentes de fase e amplitude. Através do entendimento dessas interações e da engenharia, pode-se criar aparatos para medir as interações entre ondas e a partir dessas interações, é possível obter informações de alta precisão\cite{ricardo_1}.
+
+\par O desenvolvimento de técnicas que se utilizam da interferência de ondas para a obtenção de dados de maneira precisa, utilizou inicialmente a propriedade ondulatória da luz. Assim sendo, o desenvolvimento inicial da interferometria esteve atrelado ao estudo das interferências que a luz apresentava. Portanto o ramo da interferometria que utiliza ondas no espectro visível como fonte, é atualmente denominado interferometria ótica\cite{ricardo_1}.
+
+\subsection{Interferômetros óticos}
+
+	\par Com o conceito de interferometria definido, pode-se então compreender o funcionamento dos interferômetros óticos, o qual é importante para o entendimento dos interferômetros que utilizam onda-matéria.
+
+	\par A ideia básica por traz de um interferômetro ótico é poder visualizar e medir interferências entre ondas a partir de uma onda coerente do espectro visível.
+
+	\par Em um interferômetro ótico, divide-se um feixe de luz coerente em dois, dessa forma garante-se que ambos os feixes possuem a mesma frequência e intensidade com uma diferença de fase igual a zero. Após a divisão, cada feixe segue um caminho diferente, sendo que um deles interagirá com o objeto de estudo e o outro seguirá um caminho conhecido, este feixe é denominado feixe de referência. Após a interação, ambos os feixes são recombinados e existirá uma diferença de fase devido a diferença entre caminhos percorridos, dessa forma a onda resultante apresentará interferências, as quais fornecerão as informações procuradas\cite{ricardo_2}.
+	
+	\par Um bom exemplo de interferômetro ótico é o interferômetro de Michelson mostrado na figura \ref{michelson_ricardo}. Neste caso o divisor do feixe é um espelho semitransparente que permite a reflexão e difração da luz. Após a divisão do feixe, cada um percorrerá caminhos diferentes. Ambos os feixes são então refletidos (pelos espelhos 1 e 2) de volta para o divisor de feixes, que agora atua como um recombinador. Com os feixes recombinados, a interferência entre ambos os feixes será analisada pelo anteparo localizado no fim do percurso\cite{ricardo_1}\cite{ricardo_2}.	
+
+	\begin{figure}[h!]
+      \caption{Esquema do aparato experimental do interferômetro ótico de Michelson}
+      \centering
+      \includegraphics{images/michelson.jpg}
+      \label{michelson_ricardo}
+    \end{figure}
+
+    \par As interfererências no interferômetros óticos podem ser visualizadas através de imagens de interferência com diferentes padrões. 
+	
+	\par Existe uma grande variedade de configurações de interferômetros óticos, mas como eles não são o foco deste trabalho, o entendimento qualitativo do interferômetro de Michelson já fornece a base para o entendimento dos interferômetros atômicos.
+
+\subsection{Interferometria atômica}
+	
+	\par Como o principal elemento de um interferômetro é a onda utilizada para a obtenção das medidas de interferência, a característica principal desta onda para a técnica de medição de interferência é o comprimento de onda. Os interferômetros óticos se utilizam de ondas no espectro visível as quais possuem comprimento de onda ($\lambda$) entre 400 e 750 nm\cite{ricardo_3}.
+	
+	\par Como os padrões de interferência são obtidos através da diferença de fase entre as ondas coerentes, quão menor o comprimento de onda utilizado maior é a precisão do experimento\cite{ricardo_2}, portanto para se obter melhores medidas com os interferômetros, o uso de ondas com comprimentos de onda menores que os comprimentos de onda do espectro visível acarreta em uma melhora na precisão.
+	
+	\par A partir da ideia de que quão menor o comprimento de onda utilizado no interferômetro melhor é a resolução que se pode obter, a procura por comprimentos de ondas menores e aplicáveis a interferômetros se intensificou. Assim, o conceito de um comprimento de onda de de Broglie ($\lambda_{dB}$) associado de uma partícula começou a ser aplicado a esta técnica\cite{ricardo_2}.
+	
+	\par De acordo com de Broglie toda partícula possui um comprimento de onda associado dado pela equação \eqref{aplicacao_1},
+
+	\begin{equation}
+		\label{aplicacao_1}
+		\lambda_{dB} = \frac {h}{p},
+	\end{equation}
+	onde $\lambda_{dB}$ é o comprimento de onda da partícula de de Brolgie, $h$ é a constante de Planck e $p$ é momento que essa partícula exibe, descrito matematicamente por $p =m \cdot v$.\cite{ricardo_2}
+
+	\par Portanto a partir da equação 1 pode-se extrair que quão maior a massa da partícula menor o comprimento de onda associado. Assim, a partir do comprimento de onda de de Broglie, pôde-se obter comprimentos de onda pequenos, os quais ampliam a resolução dos interferômetros\cite{ricardo_2}.
+	
+	\par Dessa maneira, começou a se utilizar elétrons como fonte de ondas pois o seu comprimento de onda é reduzido em relação ao comprimento de ondas do espectro visível, sendo o interferômetro de Marton em 1952 um bom exemplo do uso dos elétrons na interferometria\cite{ricardo_2}. Em seguida aplicou-se o mesmo conceito à interferômetros de neutrons (com $\lambda_{dB}$ da ordem de centenas de picometros)\cite{ricardo_2} e a interferômetros atômicos, os quais utilizam as ondas associadas de átomos ou até moléculas (com $\lambda_{dB}$ de poucos picometros)\cite{ricardo_2}.
+	
+	\par Realizando uma comparação com o interferômetro ótico de Michelson, a onda utilizada no interferômetro atômico é a onda associada aos átomos e não mais ondas do espectro visível ou elétrons. Dessa forma para se realizar uma divisão coerente do feixe dessas ondas não se pode mais utilizar um espelho. Portanto para se dividir o feixe de ondas-mataria coerentemente, utiliza-se uma rede de difração ao invés de um espelho\cite{ricardo_5}.
+	
+	\par Historicamente uma das primeiras redes de difração utilizada na interferometria atômica foi um monocristal de NaCl  o qual difratou um feixe de átomos de Hélio\cite{ricardo_2}. A medida que a técnica de interferometria atômica evoluiu, a procura por redes de difração mais especificas, com parâmetros de rede cada vez menores, se intensificou, abrindo espaço para a aplicação de redes de luz.
+
+\subsection{Aplicação do efeito Kapitza Dirac nos interferômetros atômicos}
+
+	\par Devido a nova fonte de ondas utilizada (as ondas associadas aos átomos) e seu curto comprimento de onda, a aplicação do efeito Kapitza Dirac foi muito bem empregada em interferômetros classificados como interferômetros atômicos. Neles, utiliza-se o efeito Kapitza Dirac para separar e recombinar os feixes onda, permitindo assim a difração coerente do feixe e recombinação através de ondas estacionárias de luz e não mais através de monocristais\cite{ricardo_2}.
+
+	\par Como o efeito Kapitza Dirac se aplica na difração dos átomos, o ponto principal do estudo é entender como essa difração ocorre e de quais parâmetros ela depende. Para isso os conceitos concernentes serão expostos na sequência.
+
+	\subsubsection{Conceitos importantes}
+
+		\textbf{- Ondas estacionárias}
+
+		\par Ondas estacionárias possuem características de ondas que se propagam em um meio, como comprimento de onda e amplitude, porém elas apresentam algumas particularidades. A principal particularidade que nos interessa das ondas estacionárias é fato de que seus nós permanecem fixos com o passar do tempo, ou seja, em uma dada posição na qual se encontra um nó este se manterá ali indeterminadamente até que alguma variação no sistema ocorra. Neste caso, é também interessante notar que pelo fato da onda ser estacionária os anti-nodos também não se propagam, apesar de apresentarem movimento oscilatório.
+	
+		\par O entendimento desse conceito se faz importante devido o fato de que ondas estacionárias podem ser formadas a partir da superposição de duas ondas (ou a partir da reflexão da própria onda). A aplicação da superposição das ondas é interessante para este trabalho pois a partir deste fenômeno físico pode-se construir a rede de difração dos interferômetros atômicos. Neste caso dois lasers são colocados um em direção ao outro, produzindo uma onda estacionaria a qual será usada como uma rede de difração atômica\cite{ricardo_2}.
+
+		\textbf{- Frequência de Rabi}
+
+		\par Para se entender qualitativamente o conceito da frequência de Rabi, precisa-se inicialmente entender o conceito de ciclo de Rabi.
+		
+		\par Quando um átomo atingido por um fóton há uma transferência de momento associado ao choque. Pelo conceito de emissão estimulada (ou efeito Compton estimulado) proposto por Kapitza e Dirac, este átomo re-emite o momento recebido pelo fóton. Ou seja, o átomo recebe uma transferência de momento e o re-emite logo em seguida, este ciclo é denominado ciclo de Rabi.
+		
+		\par Supondo agora que o átomo não é atingido por um único fóton mas sim por um feixe de luz, o átomo realizará este ciclo inúmeras vezes, sendo a frequência com que esse ciclo ocorre denominada a frequência de Rabi.
+
+		\textbf{- Difração, transfência de momento, quanta de luz, absorção e emissão estimulada de fótons}
+
+		\par A compreensão desses quatro conceitos são importantes para o entendimento qualitativo da difração de um feixe de átomos por ondas estacionárias.
+		
+		\par A difração coerente do feixe de átomos por ondas de luz estacionárias ocorre pelo princípio da transferência de momento entre o átomo e um quanta de luz, ou seja, neste momento inicial o átomo e a luz são tratados como partículas\cite{ricardo_2}, evidenciando um modelo semi-clássico.
+		
+		\par Quando um átomo é lançado em direção a ondas estacionárias, ele se encontra no que se denomina de estado fundamental. Ao atingir com a ondas estacionária de luz, este átomo pode simplesmente atravessar a onda de luz sem qualquer interação, mantendo seu estado fundamental, ou ele pode interagir com ela\cite{ricardo_2}. 
+		
+		\par O momento do elétron pode interagir de diferentes maneiras com o momento de um fóton, sendo as principais interações denominadas absorção, emissão estimulada e redistribuição. Na  interação de absorção, o choque do átomo com o quanta, fornece ao átomo, o que se denomina recuo (tradução livre do inglês \textit{recoil}), sendo esse um efeito quântico de transferência de momento entre um átomo e uma partícula. Este recuo é quantizado e dado por o  $\hbar k$, onde $\hbar$ é a constante de Planck reduzida e $k$ é o módulo do vetor de onda\cite{ricardo_2}. Essa interação possui uma probabilidade  quântica associada de ocorrer, a qual depende da intensidade frequência do campo de luz e do tempo de duração da interação átomo-fóton\cite{ricardo_2}.
+		
+		\par Em um caso de interação de um átomo com uma onda de luz estacionária, pode ocorrer o que se denomina por emissão estimulada\cite{ricardo_2}\cite{ricardo_4}. Neste caso um elétron sofre a absorção do momento de um fóton, como no caso anteriormente descrito, mas devido o fato da onda estacionária ser a onda resultante da superposição de duas ondas de luz, logo após a absorção do momento do fóton devido uma das fontes de luz, há a emissão, por parte do átomo, de um novo momento $\hbar k$ devido a presença da segunda onda\cite{ricardo_4}, este efeito também é denominado efeito Compton estimulado. Dessa maneira, os possíveis estados do átomo após a interação com a onda estacionária de luz são múltiplos pares de $\hbar k$ mais a contribuição de momento inicial, logo são eles $p + 2\hbar k, p + 4\hbar k$ e suas respectivas contribuições negativas $p - 2\hbar k, p - 4\hbar k$\cite{ricardo_2}.
+		
+		\par Figuras serão mostradas para um melhor entendimento no tópico de difração.
+
+		\subsubsection{Difração do efeito Kapitza Dirac nos interferômetros}
+
+			\par A partir dos conceitos explicados acima, pode-se seguir com o entendimento da difração dos átomos por ondas estacionárias de luz e em seguida visualizar sua aplicação em um interferômetro.
+			
+			\par O fenômeno da difração é ocorre quando uma onda interage com algo que muda sua amplitude ou fase. Muitas vezes, a difração é tratada como o resultado da superposição de ondas coerentes (ondas com comprimento de onda e frequências iguais)\cite{ricardo_5}. Neste trabalho, a superposição estuda, é a superposição de ondas advindas de uma mesma fonte, porém que percorreram caminhos diferentes. Desta maneira, existe a probabilidade das ondas estarem fora de fase e portanto através do principio da superposição resultarem em uma nova onda.
+			
+			\par Um conceito importante para o entendimento, de como corre a difração através do efeito Kapitza Dirac, é o conceito de rede de difração. Uma rede de difração, consiste em uma região de difração periódica\cite{ricardo_5}, ou seja, possui características periódicas as quais causam o fenômeno da difração. Por exemplo, uma rede de difração pode ser um cristal com distâncias interplanares bem definidas ou mesmo ondas de luz estacionárias\cite{ricardo_5}. As redes de difração de luz modulam as ondas difratadas através da transfêrencia de momento, e portanto, existe uma relação entre o momento transferido à enésima componente da onda difratada e o período da grade ($d$). Esta relação é dada pela equação \eqref{aplicacao_2},
+
+			\begin{equation}
+				\label{aplicacao_2}
+				\delta pn = \frac { n \cdot h } {d} = n \hbar \mathbf {G},
+			\end{equation}
+			sendo \textbf{G} o vetor da rede recíproca (o qual será melhor explicado no momento oportuno), \textit{d} o período da grade, \textit{h} a constante de planck e \textit{n} a enésima componente\cite{ricardo_5}.
+			
+			\par No caso da difração causada por uma rede de difração de luz, três são as formas que a rede pode atuar. 
+			A rede de luz pode refletir, refratar e absorver as ondas de matéria\cite{ricardo_5}.
+			
+			\par Existem dois regimes para os casos em que as ondas provenientes de átomos são difratados por uma rede de luz, estes são denominados regime de Raman Nath e regime de Bragg. A diferença básica entre esses dois regimes é a maneira como o átomo “enxerga” a rede de difração, ou seja, como o átomo interage com o laser\cite{ricardo_5}. A caracterização do regime no qual o átomo está sujeito é importante devido as diferenças entre transferências de momento que ocorrem em cada um dos regimes.
+			
+			\par Assim como as redes de difração físicas, por exemplo monocristais, as redes de luz também preenchem um volume no espaço, portanto quão maior for o seu volume maior será o tempo de interação átomo/rede. Redes finas, são redes com tempo de interação átomo-rede curto e redes grossas são redes com tempo de interação longo, mas para se obter um bom parâmetro de definição, define-se que uma rede de difração é considerada fina se ela for menor que a proporção  $\frac{d^2}{\lambda_{dB}}$ e a rede será grossa se ela for maior (ou mais extensa) que essa proporção, sendo $\lambda_{dB}$ o comprimento de onda de de Broglie e $d$ o período da grade\cite{ricardo_5}.
+			
+			\par O regime associado as redes de difração de luz fina, é o regime de Raman Nath. Já o regime associado a uma rede de difração de luz grossa é o regime de Bragg, desde de que ele atenda um requisito, o qual depende de um potencial, denominado potencial ótico efetivo ($U(x)$) e da escala de energia característica de rede ($E_{g}$)\cite{ricardo_5}.
+			
+			\par O potencial ótico efetivo ($U(x)$) de um sistema de aberto de dois estados é descrito matematicamente pela equação \eqref{aplicacao_3},
+
+			\begin{equation}
+				\label{aplicacao_3}
+				U(x) = \frac {\hbar \Omega_{1}^2}{4\delta + i2\Gamma}  \propto  \frac {I(x)}{2\delta + i\Gamma},
+			\end{equation}
+
+			onde, $\hbar$ é a constante de Planck reduzida, $\Omega_{1}$ é a frequência de Rabi, $\delta$ é a defasagem entre a frequência angular do laser e a frequência angular do átomo (ou seja, $\delta = \omega_{laser} - \omega_{átomo}$), $\Gamma$ é o decaimento atômico espontâneo do átomo e $I(x)$ é a intensidade do laser utilizado. É importante saber que $\omega_{1} = \mathbf{d}_{ab} \cdot \frac{\mathbf{E}}{\hbar}$, onde $\mathbf{d}_{ab}$ é o vetor momento de transição dipolo atômico, o qual é o vetor associado a mudança quântica do estado “a” para o estado “b” e $\mathbf{E}$ é o vetor campo elétrico do laser\cite{ricardo_5}.
+			
+			\par A partir da equação 3 pode-se observar que o potencial ótico é um potencial que surge da interação entre o átomo e a rede de luz. É interessante notar que este potencial depende dos comportamentos de onda e partícula tanto da luz como dos átomos. A luz e os átomos são tratados como partículas a partir da frequência de Rabi, a qual considera a onda de luz quantizada em quantas de energia e trata o átomo como partícula, isso ao considerar a transferência de momento como sendo um efeito Compton estimulado. E ambos são também tratados como ondas através do termo $\delta$ o qual leva em consideração a diferença entre as frequências angulares das ondas do laser e do átomo.
+			
+			\par Pode-se notar também que se o decaimento espantando dos átomos do estado fundamental para o estado excitado for muito elevado a contribuição imaginária será grande, evidenciando uma contribuição considerável da perturbação natural do sistema\cite{ricardo_2}.
+			
+			\par Também da equação 3 pode-se observar que ela é proporcional ao padrão de intensidade do laser $I(x)$, essa relação é importante para fins práticos, ou seja cálculo de $U(x)$ a partir da intensidade do laser, sendo este dado de mais fácil obtenção.
+			
+			\par O segundo conceito importante é o conceito escala de energia característica da rede ($E_g$). $E_g$ é usado como parâmetro para se determinar se o potencial entre a interação entre átomo e a rede é apenas uma perturbação ou se ou se as modulações corridas sobre o feixe difratado realmente advém da rede de difração\cite{ricardo_5}. $E_g$ é calculado a partir da equação \eqref{aplicacao_4},
+
+			\begin{equation}
+				\label{aplicacao_4}
+				E_g = \frac{\hbar^2 G^2}{2m},
+			\end{equation}
+			onde $\hbar$ é a constante de Planck reduzida, $m$ é a massa do átomo e $G$ é o módulo vetor de rede recíproca. Neste caso $\mathbf{G}$ denominado vetor de rede recíproca (ou rede ótica, devido o fato de ser o análogo da rede recíproca de um cristal) é dado matematicamente por  $\mathbf{G} = (\mathbf{k}_{1} - \mathbf{k}_{2})$, sendo $\mathbf{k}_{1}$ e $\mathbf{k}_{2}$ as funções de ondas sobrepostas. No caso da onda estacionária obtida através de duas fontes de laser contra propagando, sendo $\mathbf{G}$ portanto o vetor da  rede recíproca da onda estacionária resultante, a qual é usada na difração dos átomos\cite{ricardo_5}.
+			
+			\par A equação \eqref{aplicacao_4} também pode ser interpretada como a energia cinética transferida ao átomo devido devido o efeito Compton estimulado\cite{ricardo_4}. Dessa forma, existe um vetor unitário de momento associado a essa transferencia de energia  $\hbar G$\cite{ricardo_5}. Em outras palavras, $E_{g}$ quantiza a energia que a rede é capaz de transferir ao átomo através a missa estimulada.
+			
+			Como dito anteriormente, para se determinar se uma rede grossa atua no regime de Bragg, a condição $U(x) \ll E_{g}$ deve ser satisfeita, sendo considerado portanto $U(x)$ um potencial fraco. Caso $U(x) \gg E_{g}$ o potencial $U(x)$ é considerado forte e acorre o que se denomina canalização coerente\cite{ricardo_5}. O estudo da difração dos átomos no regime de Bragg será explicado no desenvolver deste trabalho.
+
+
+		\textbf{-\ Redes de difração de luz fina (no regime de Raman Nath)}
+
+			\par Para as redes consideradas finas e com o tempo de interação átomo/rede de luz ($\tau$) curto, as transferência de momento se dão por quantidades múltiplas inteiras de $\hbar G$ como pode ser visto na figura \ref{KDscattering_ricardo}, e a probabilidade de se encontrar um átomo difratado no enésimo estado é dada pela equação \eqref{aplicacao_5},
+
+			\begin{equation}
+				\label{aplicacao_5}
+				P_{N}^{K.D.fina} = J_{N}^2 \left(\frac{\Omega_{1}^2 \tau}{2\delta}\right),
+			\end{equation}
+			sendo $J_{n}$ a função de Bessel, $\tau$ o tempo de interação entre átomo e rede de difração e $\delta$ a defasagem entre os átomos e o laser\cite{ricardo_5}.
+
+			\begin{figure}[h!]
+		      \caption{Esquema de difração de rede fina com seu respectivo gráfico de probabilidades associadas aos momentos transferidos}
+		      \centering
+		      \includegraphics{images/KDscattering.png}
+		      \label{KDscattering_ricardo}
+	    	\end{figure}
+
+	    	\par É interessante notar da figura \ref{KDscattering_ricardo}, mostrada acima, que a difração obtida é simétrica e que a probabilidade de se encontrar átomos difratados de maior ordem é menor quando comparada com a probabilidade de  estados de menores ordens, ou seja, mais próximos do estado fundamental, esse comportamento é descrito pela função de Bessel da função de probabilidades\cite{ricardo_6}. 
+			
+			\par A equação \eqref{aplicacao_5} é válida para incidência normal do feixe de átomos na rede de difração devido a aproximação de Raman Nath que é utilizada no cálculo de $\tau$ que é dado matematicamente pela equação \eqref{aplicacao_6},
+
+			\begin{equation}
+				\label{aplicacao_6}
+				\tau < \frac{1}{2 \sqrt{\frac{\Omega_{R} E_{g}}{\hbar}}}
+			\end{equation}
+			sendo o termo $\Omega_{R}$ é frequência de Rabi generalizada a qual é dada por $\Omega_{R} = \sqrt{|\Omega_{1}^2 + \delta^2}$\cite{ricardo_5}. Pode-se notar que apesar do termo $E_{g}$ ser utilizado na determinação do regime de Bragg para uma rede grossa, ele também é utilizado na determinação matemática do tempo de interação do átomo com a rede de difração, sendo um parâmetro de energia útil também para redes finas.
+		
+			Pode-se extrair que o comportamento dual da matéria é extremamente relevante para este efeito físico, pois sua descrição matemática leva em consideração ambos os comportamentos (onda/partícula) em suas equações que descrevem a difração no limite de Raman Nath através da frequência de Rabi e de $\delta$.
+		
+			\par É interessante notar que há uma aparente discrepância com relação a transferência de momento neste regime, sendo apresentado no livro de Berman (1997) como valores múltiplos inteiros pares de $\hbar k$ (ou seja, $\hbar k$ , $2 \hbar k$ , $4 \hbar k$  e seus respectivos negativos) e no artigo de Cronin, Schmiedmayer e Pritchard (2009) é apresentado por múltiplos inteiros de $\hbar G$ (unidade de momento de rede), porém deve-se enfatizar que, $\hbar G$ é uma relação  de momento transferido com relação a rede de difração, enquanto os valores múltiplos pares de $\hbar k$  foram determinados posteriormente por Moskowitz \textit{et al}. (1983) bem como a simetria entre valores positivos e negativos. Assim sendo, ambas as representações são equivalentes.
+		
+			\par Portanto, compreendendo sobre as condições para a difração ocorrer no limite de Raman Nath e também compreendendo sobre como se da a distribuição dos estados excitados e suas probabilidades associadas, pode-se dizer que a difração sobre redes de luz finas está bem compreendida e pode-se dar sequencia no estudo das redes de difração de luz grossas no regime de Bragg.
+
+		\textbf{-\ Redes de difração de luz grossas (no regime de Bragg)}
+
+			\par Para redes de difração de luz grossas e de potencial fraco o regime sobre o qual o átomo está é o regime de Bragg. Neste regime o os ângulos de difração respeitam os ângulos de difração previstos por Bragg para a difração de em cristais e pode ser escrito, a partir da equação \eqref{aplicacao_7}, para o caso em que a rede é uma rede de difracao de luz,
+
+			\begin{equation}
+				\label{aplicacao_7}
+				n\lambda_{dB} = \lambda_{ph} sin(\theta_{B})
+			\end{equation}
+			onde $\lambda_{dB}$ é o comprimento de onda do átomo, $\lambda_{ph}$ é o comprimento de onda do fóton proveniente da rede de difração (o qual neste caso atua analogamente a distância interplanar para o caso já conhecido da lei de Bragg), $n$ é um número natural e $\theta_{B}$ é o ângulo de difração\cite{ricardo_5}.
+	
+			\par Como a rede de difração, é uma rede grossa, toda a interação dos átomo com a rede deve ser considerada e devido o longo tempo de interação. Por esse motivo os átomos tendem a ter apenas dois novos estados após a difração, sendo um deles considerado o novo estado fundamental (diz-se novo estado fundamental devido o novo momento associado) e o outro o estado excitado\cite{ricardo_5}.
+
+			\par Assim como no regime de Raman Nath, ocorre a absorção de um fóton e sua re-emissão através da emissão estimulada já explicada, porém há apenas dois estados possíveis de serem ocupados após a difração. Portanto, com a possibilidade de apenas dois novos estados deixarem a rede de difração e a transferência de momentos de dois fótons (devido as duas contribuições de momento, um de cada fóton da rede de luz estacionária), o novo estado fundamental e o estado excitado podem ser escritos por  $\left|g, -\hbar k_{ph} \right>$ e  $\left|g, +\hbar k_{ph} \right>$\cite{ricardo_5}.
+			
+			\par Com os dois estados possíveis definidos a probabilidade de se obter o estado excitado (N=1) é dada pela equação \eqref{aplicacao_8}
+
+			\begin{equation}
+				\label{aplicacao_8}
+				P_{N=1}^{Bragg}(\tau) = sin^2\left(\frac{\Omega_{1}^{2} \tau}{4\delta}\right)
+			\end{equation}
+			sendo as variáveis desta equação já definidas anteriormente para o cálculo de probabilidades do limite de Raman Nath\cite{ricardo_5}.
+			
+			\par A distribuição de estados difratados e suas respectivas probabilidades estão expressos visualmente pela figura \ref{Braggregime_ricardo}.
+
+			\begin{figure}[h!]
+		      \caption{Esquema de difração de rede grossa com seus respectivo gráfico de probabilidades associadas aos dois estados difratados}
+		      \centering
+		      \includegraphics{images/Braggregime.png}
+		      \label{Braggregime_ricardo}
+	    	\end{figure}
+
+			\par A partir da representação da figura  \ref{Braggregime_ricardo}, pode-se visualizar a diferença de espessura da rede grossa para a rede fina mostrada na figura \ref{KDscattering_ricardo} a partir da comparação da representação dos formatos da rede, sendo essa diferença de formato responsável por um maior tempo de interação entre o átomo e a rede diferenciando os dois regimes. A título de curiosidade, para se observar o regime de Bragg para um feixe de átomos com velocidade aproximada de 1000 $m/s$  é necessário uma rede de difração com espessura de aproximadamente $1cm$\cite{ricardo_5}.
+			
+			\par A partir da representação da figura \ref{Braggregime_ricardo} pode-se notar a principal diferença entre os regimes de Raman Nath e de Bragg, são os estados possíveis após a difração, sendo que no regime de Bragg são obtidos apenas apenas dois estados difratados. Outro fato importante de se notar é que existe uma angulação entre o feixe de átomos e a rede de difração, esse ângulo evidencia que a difração no limite de Bragg ocorre em ângulos específicos, obedecendo a lei de Bragg como já mencionado acima.
+
+\subsection{Interferômetros atômicos que utilizam redes de luz}
+	\par Com a compreensão da difração que ocorre em redes de difração finas e grossas através da aplicação do efeito KD, sua principal aplicação se dá nos interferômetros atômicos.
+	
+	\par Como já explicado anteriormente, em um interferômetro ótico a luz utilizada na interferometria é dividida coerentemente, um dos dois feixes segue um caminho bem conhecido, portanto este feixe é denominado como feixe de referencia e o segundo feixe segue um caminho desconhecido justamente para se realizar a medição desejada. Logo após a interação do feixe de medição com o objeto de estudo, ambos os feixes são recombinados coerentemente e sua diferença de fase (e por consequência sua interferência) analisada. Esta mesma lógica é utilizada em um interferômetro atômico que se utiliza do efeito KD , neste caso, os divisores e recombinadores de feixes são redes de luz e a difração dos átomos  segue o padrão dos regimes explicados no tópico anterior. Na figura 4 pode-se observar dois exemplos de interferômetros atômicos que difratam  feixes de átomos três vezes.
+
+	\begin{figure}[h!]
+      \caption{Esquema de interferômetros atômicos que utilizam ondas de luz como divisores e recombinadores de feixes de átomos. Em a, tem-se redes finas associadas aos interferômetros e em c, tem-se redes grossas, enquanto em b e d são apresentadas suas respectivas imagens de interferência.}
+      \centering
+      \includegraphics{images/inteferometrosKD.png}
+      \label{inteferometrosKD_ricardo}
+	\end{figure}
+
+	\par Na figura \ref{inteferometrosKD_ricardo}a  a difração dos átomo é realizada três vezes por três grades redes de difração de luz finas. Como pode ser visto o feixe inicial de átomos é colimado e lançado em direção a primeira rede de difração a qual difrata o feixe inicial em três feixes coerentes. A segunda e a terceira rede de difração são responsáveis pela recombinação dos átomos e sua interferência é medida pelas fendas de detecção que estão localizadas a partir da terceira rede de difração, sendo um exemplo da figura de difração encontrada a figura \ref{inteferometrosKD_ricardo}b.
+	
+	\par Já a figura \ref{inteferometrosKD_ricardo}c mostra também um interferômetro atômico com três redes de difração só que nesse caso as redes são grossas. Pode-se notar que a difração ocorrida na primeira rede, diferentemente da figura \ref{inteferometrosKD_ricardo}a, o feixe é dividido em apenas dois feixes coerentes, evidenciando a difração em apenas dois estados. Nota-se também um angulo entre a rede e o feixe de átomos, ambos os fatos evidenciam o regime de Bragg. Sua respectiva imagem de interferência apresentada na figura \ref{inteferometrosKD_ricardo}d.
+	
+	\par Vale lembrar que a aplicação das redes de luz e do feixe de átomos permite uma melhor resolução do experimento e medição de novas características físicas como rotação e ondas gravitacionais devido a massa associado dos átomo.
+
+	 % Ricardo
+ \bibitem{ricardo_1} BUNCH, Bryan; HELLEMANS, Alexander. \href{https://www.scribd.com/doc/150209428/The-History-of-Science-and-Technology}\textit{The History of Science and Technology: A Browser's Guide to the Great Discoveries, Inventions, and the People who Made Them, from the Dawn of Time to Today. Boston: Houghton Mifflin}, 2004. Páginas 319-319, 413-414.
+ \bibitem{ricardo_2} BERMAN, Paul R.. \href{https://www.scribd.com/read/282500311/Atom-Interferometry}\textit{Atom Interferometry}. Michigan: Academic Press, 1997. 478 p. Páginas 293-298.
+ \bibitem{ricardo_3} GONZÁLEZ, Félix H. Diaz; SILVA, Sérgio Ceroni da. \href{https://www.ufrgs.br/lacvet/livros/Analises_Clinicas_Vet.pdf}\textit{PATOLOGIA CLÍNICA VETERINÁRIA}. 2008. 347, Universidade Federal do Rio Grande do Sul, Porto Alegre, 2008.
+ \bibitem{ricardo_4} BATELAAN, H. \href{https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.79.929}\textit{Illuminating the Kapitza-Dirac effect with electron matter optics: Colloquium}. Lincoln-nebraska: American Physical Society, 2007.
+ \bibitem{ricardo_5} CRONIN, Alexander D.; SCHMIEDMAYER, Jörg; PRITCHARD, David E.. \href{https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.81.1051}\textit{Optics and interferometry with atoms and molecules}. Massachusetts: American Physical Society, 2009.
+ \bibitem{ricardo_6} MUELLER, Holger; CHIOW, Sheng-wey; CHU, Steven. \textit{Atom-wave diffraction between the Raman-Nath and the Bragg regime: Effective Rabi frequency, losses, and phase shifts}. Stanford: Physical Review, 2008.
+ \bibitem{ricardo_7} MOSKOWITZ, Philip E. et al. \href{https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.51.370}\textit{Diffraction of an Atomic Beam by Standing-Wave Radiation}. Massachusetts - Cambridge: Physical Review Letters, 1983.
+ \bibitem{ricardo_8} Rabi
+ \bibitem{ricardo_9} Estacionaria
+
+

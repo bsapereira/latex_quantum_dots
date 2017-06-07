@@ -10,10 +10,17 @@
 
     \par O termo E é a energia da partícula no estado que ela se encontra, sendo um autovalor na equação de Schrödinger que está associado ao autovetor da função de onda.
 
-    \par Para exemplificar a relação autovalor-autovetor e para que se deixe claro o conceito de quantização de níveis de energia , será considerado o modelo de uma partícula confinada em uma caixa unidimensional em x = [0,L]. Supondo que a equação de onda para essa partícula possa ser descrita por uma função de onda estacionária, pode-se escrever $\Psi (\textbf x)$como:
+    \par Para analisar a energia do elétrons, a partícula será confinada em um poço de potencial infinito, unidimensional em x = [0,L]. Será considerado que a partícula move-se livremente e que não há brechas na barreira de potencial, evitando assim o tunelamento quântico. Reescrevendo a equação (2.0) para o caso unidimensional e explicitando as condições de contorno:
+
+    \begin{equation}\label{eq_schrodinger_frustrado}
+      -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) + U(x) \cdot \Psi(x) = E \cdot \Psi(x),
+      \ onde\ V(0)=V(L)=\infty\ e\ V(x)=0,\ 0<x<a
+    \end{equation}
+
+    Onde, podemos escrever ainda
 
     \begin{equation}\label{eq_schrodinger_eq1}
-      \Psi(\mathbf{x}) = \left(\frac{1}{2L}\right)^\frac{1}{2} sen\left(\frac{n \cdot \pi \cdot x}{L}\right),\ com\ n = 1, 2, ...
+      \Psi(\mathbf{x}) = \left(\frac{1}{L}\right)^\frac{1}{2} sen\left(\frac{n \cdot \pi \cdot x}{L}\right),\ com\ n = 1, 2, ...
     \end{equation}
 
     \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}\cite{frustrado2}.
