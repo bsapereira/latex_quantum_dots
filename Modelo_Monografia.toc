@@ -9,12 +9,12 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Hamiltoniano de um Cristal Perfeito}{7}{subsubsection.2.2.1}
 \contentsline {subsection}{\numberline {2.3}Potencial Peri\IeC {\'o}dico e Teorema de Bloch}{9}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Potencial Peri\IeC {\'o}dico}{9}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Teorema de Bloch}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2}Teorema de Bloch}{10}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Condi\IeC {\c c}\IeC {\~a}o de Contorno de Born-Von Karman}{10}{subsubsection.2.3.3}
 \contentsline {subsubsection}{\numberline {2.3.4}Prova do Teorema de Bloch}{11}{subsubsection.2.3.4}
 \contentsline {subsection}{\numberline {2.4}Teoria de Bandas nos S\IeC {\'o}lidos}{13}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Condutores, semicondutores e isolantes}{13}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Semicondutores bulk}{14}{subsection.2.6}
-\contentsline {section}{\numberline {3}Desenvolvimento}{16}{section.3}
-\contentsline {subsection}{\numberline {3.1}Confinamento qu\IeC {\^a}ntico e densidade de estados}{16}{subsection.3.1}
-\contentsline {section}{Refer\IeC {\^e}ncias}{16}{section*.2}
+\contentsline {section}{\numberline {3}Desenvolvimento}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}Confinamento qu\IeC {\^a}ntico e densidade de estados}{17}{subsection.3.1}
+\contentsline {section}{Refer\IeC {\^e}ncias}{17}{section*.2}

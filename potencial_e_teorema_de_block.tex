@@ -19,14 +19,14 @@
 
 	\begin{equation}
 		\label{bloch_2}
-		\Psi_{nk}(\mathbf{r})= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot U_{nk}(\mathbf{r})
+		\Psi_{nk}(\mathbf{r})= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot u_{nk}(\mathbf{r})
 	\end{equation}
 
 	As equações \eqref{bloch_1} e \eqref{bloch_2} implicam em:
 
 	\begin{align}
 		\label{bloch_3}
-		\Psi_{nk}(\mathbf{R} + \mathbf{r}) &= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot U_{nk}(\mathbf{R} + \mathbf{r})\\
+		\Psi_{nk}(\mathbf{R} + \mathbf{r}) &= e^{i\mathbf{k} \cdot \mathbf{r}}\cdot u_{nk}(\mathbf{R} + \mathbf{r})\\
 		\Psi(\mathbf{R} + \mathbf{r}) &= e^{i\mathbf{k} \cdot \mathbf{R}}\cdot \Psi(\mathbf{r})
 	\end{align}
 
@@ -68,17 +68,17 @@
 
 		\begin{equation}
 			\label{bloch_7}
-			\Psi(\mathbf{r} + Ni \cdot \mathbf{a}_{i}) = e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} \cdot \Psi(\mathbf{r})
+			\Psi(\mathbf{r} + Ni \cdot \mathbf{a}_{i}) = e^{i\cdot N i \cdot \mathbf{k} \cdot \mathbf{a}_{i}} \cdot \Psi(\mathbf{r})
 		\end{equation}
 
 		\par A equação \eqref{bloch_7} será válida para:
 
 		\begin{equation}
 			\label{bloch_8}
-			e^{i\cdot N i \mathbf{k} \cdot \mathbf{a}_{i}} = 1,\ i=1,2,3
+			e^{i\cdot N i \cdot \mathbf{k} \cdot \mathbf{a}_{i}} = 1,\ i=1,2,3
 		\end{equation}
 
-		\par A partir do mesmo desenvolvimento feito, tem-se que:
+		\par A partir do mesmo desenvolvimento feito em \eqref{redeReciproca_eq6},
 
 		\begin{equation}
 			\label{bloch_9}
@@ -89,7 +89,7 @@
 
 		\begin{equation}
 			\label{bloch_10}
-			e^{i\cdot N i 2 \pi \mathbf{k} i} = 1
+			e^{i\cdot N i 2 \pi \cdot \mathbf{k} i} = 1
 		\end{equation}
 
 		\par Uma exponencial complexa pode ser escrita em função de senos e cossenos, através da fórmula de Euler. Observa-se que a relação acima será válida sempre que $2\pi$ estiver sendo multiplicado por um número inteiro. Como $Ni$ é um número inteiro e $\mathbf{k}i$ também, pode-se definir $\mathbf{k}i$ em função de $Ni$:
@@ -168,7 +168,6 @@
 				+ \sum_{\mathbf{K}} \mathbf{U}_{\mathbf{K}} \cdot C_{\mathbf{k-K}} = 0
 	\end{equation}
 
-	%TODO - Confirmar referencia qm_fis2
 	\par A equação \eqref{bloch_18} é análoga à equação de Schrödinger só que para o espaço recíproco\cite{qm_fis2}. Um resultado importante obtido a partir dessa equação é que o coeficiente $C_{\mathbf{k}}$ se relaciona com os demais coeficientes\cite{qm_fis5}. Ou seja, $C\mathbf{k}$ acopla-se com $C_{\mathbf{k-K1}}$, $C_{\mathbf{k-K2}}$, etc. Isso significa que um ponto $C_{\mathbf{k}}$ da rede sofre influência de todos os outros pontos, gerando uma sobreposição das funções de onda. Isso fornece uma introdução aos níveis de energia\cite{bloch2}. É interessante observar que para $U_{\mathbf{K}} = 0$, a energia obtida é a do eĺétron livre.
 
 	\par Pode reescrever a função de onda como:
@@ -178,14 +177,14 @@
 		\Psi (\mathbf{r}) = \sum_{K} C_{\mathbf{k-K}}\cdot e^{i\mathbf{(k-K)}\cdot\mathbf{r}}
 	\end{equation}
 
-	\par Levando $e^{i\mathbf{k} \cdot \mathbf{r}}$ para fora do somatório:
+	\par Trazendo $e^{i\mathbf{k} \cdot \mathbf{r}}$ para fora do somatório:
 
 	\begin{equation}
 		\label{bloch_20}
 		\Psi (\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}} \cdot \left(\sum_{K} C_{\mathbf{k-K}}\cdot e^{-i \mathbf{K}\cdot\mathbf{r}}\right)
 	\end{equation}
 
-	\par Da equação \eqref{bloch_20}, tem-se que a funç~ao de periodicidade $u$ é dada por:
+	\par Da equação \eqref{bloch_20}, tem-se que a função de periodicidade $u$ é dada por:
 
 	\begin{equation}
 		\label{bloch_21}
@@ -194,5 +193,5 @@
 
 	\par Assim, provou-se o teorema de Bloch, ao encontrar uma função de periodicidade $u$ que satisfaça a equação \eqref{bloch_1}.
 
-	\par Como o problema foi analisado para um volume fixo, que diz respeito à região da célula unitária (equação \eqref{bloch_13}), tem-se infinitas soluções para k  com autovalores discretos, indexados pelo índice de bandas $n$. As energias $En(\mathbf{K})$ varia de forma contínua à medida que $\mathbf{k}$ varia e representam os níveis de energia para o elétron em um potencial periódico. Em relação a $n$, a energia varia de forma discreta. Ao atribuir os índices $n$ para as funções de onda e para os níveis de energia, obtém-se e $\epsilon n\mathbf{k}$. As informações que essas funções contêm são chamadas de estrutura de banda. Para cada $n$, o conjunto de níveis eletrônicos é chamado de banda de energia\cite{qm_fis5}. 
+	\par Como o problema foi analisado para um volume fixo, que diz respeito à região da célula unitária (equação \eqref{bloch_13}), tem-se infinitas soluções para k  com autovalores discretos, indexados pelo índice de bandas $n$. As energias $En(\mathbf{K})$ varia de forma contínua à medida que $\mathbf{k}$ varia e representam os níveis de energia para o elétron em um potencial periódico. Em relação a $n$, a energia varia de forma discreta. Ao atribuir os índices $n$ para as funções de onda e para os níveis de energia, obtém-se e $E n\mathbf{k}$. As informações que essas funções contêm são chamadas de estrutura de banda. Para cada $n$, o conjunto de níveis eletrônicos é chamado de banda de energia\cite{qm_fis5}. 
 

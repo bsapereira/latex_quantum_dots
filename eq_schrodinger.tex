@@ -10,14 +10,26 @@
 
     \par O termo E é a energia da partícula no estado que ela se encontra, sendo um autovalor na equação de Schrödinger que está associado ao autovetor da função de onda.
 
-    \par Para analisar a energia do elétrons, a partícula será confinada em um poço de potencial infinito, unidimensional em x = [0,L]. Será considerado que a partícula move-se livremente e que não há brechas na barreira de potencial, evitando assim o tunelamento quântico. Reescrevendo a equação (2.0) para o caso unidimensional e explicitando as condições de contorno:
+    \par Para analisar a energia do elétrons, a partícula será confinada em um poço de potencial infinito, unidimensional em x = [0,L]. Será considerado que a partícula move-se livremente e que não há brechas na barreira de potencial, evitando assim o tunelamento quântico. Reescrevendo a equação \eqref{eq_schrodinger_main} para o caso unidimensional e explicitando as condições de contorno:
 
     \begin{equation}\label{eq_schrodinger_frustrado}
       -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) + U(x) \cdot \Psi(x) = E \cdot \Psi(x),
       \ onde\ V(0)=V(L)=\infty\ e\ V(x)=0,\ 0<x<a
     \end{equation}
 
-    Onde, podemos escrever ainda
+    \par Rearranjando a equação \eqref{eq_schrodinger_frustrado}
+
+    \begin{equation}\label{eq_schrodinger_frustrado}
+      -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) - [E - U(x)] \cdot \Psi(x) = 0,
+    \end{equation}
+
+    \par Pelo método de equações diferencias de segunda ordem, sabemos que $\Psi(x) = e^{\lambda x}$ é uma boa proposta de solução para equação.
+
+    \begin{equation}
+      \label{eq_schrodinger_frustrado_1}
+    \end{equation}
+
+   \par Onde, podemos escrever ainda
 
     \begin{equation}\label{eq_schrodinger_eq1}
       \Psi(\mathbf{x}) = \left(\frac{1}{L}\right)^\frac{1}{2} sen\left(\frac{n \cdot \pi \cdot x}{L}\right),\ com\ n = 1, 2, ...
@@ -25,20 +37,19 @@
 
     \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}\cite{frustrado2}.
 
-    \begin{figure}[h!]
+    \begin{figure}[H]
       \caption{Formas da função de onda para valores de n entre 1 e 6}
       \centering
       \includegraphics[width=0.25\textwidth]{images/figura1.png}
       \label{fig1}
     \end{figure}
 
-    \par Pela definição clássica da funçaõ de onda $\Psi(\mathbf{x})$, temos:
+    \par Pela definição clássica da função de onda $\Psi(\mathbf{x})$, temos:
 
     \begin{equation}\label{eq_schrodinger_eq2}
         \Psi (\mathbf{x}) = A \cdot sen(k \cdot \mathbf{x}) + B \cdot cos(k \cdot \mathbf{x})
     \end{equation}
 
-    %TODO - QUAIS CONDIÇÕES SÃO ESSAS?
     \par Pela equação de Schrödinger, \eqref{eq_schrodinger_eq2} e das condições de contorno para o problema em questão, é possível concluir:
 
     \begin{equation}\label{eq_schrodinger_eq3}
@@ -54,7 +65,7 @@
       \par Para definir o operador hamiltoniano utilizado para descrever partículas num cristal, começaremos do cristal perfeito, que descreve de maneira geral as relações entre as partículas nesse sistema. A partir dele, serão feitas aproximações para que se chegue no hamiltoniano do elétron livre\cite{qm_fis2}. 
     
       \par O hamiltoniano do cristal perfeito\cite{frustrado3} é dado por:
-      %TODO - REVISAR
+
       \begin{equation}\label{eq_schrodinger_eq4}
         \mathcal{H} = 
           \sum_{i} \frac{p_{i}^2}{2m_{i}} 
