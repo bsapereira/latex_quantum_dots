@@ -1,18 +1,18 @@
 \select@language {brazil}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}{section.1}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.1}
 \contentsline {section}{\numberline {2}Introdu\IeC {\c c}\IeC {\~a}o \IeC {\`a} Mec\IeC {\^a}nica Qu\IeC {\^a}ntica e F\IeC {\'\i }sica do Estado S\IeC {\'o}lido}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Equa\IeC {\c c}\IeC {\~a}o de Schr\IeC {\"o}dinger}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Equa\IeC {\c c}\IeC {\~a}o de Schr\IeC {\"o}dinger}{3}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}El\IeC {\'e}tron livre}{4}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}El\IeC {\'e}tron em um po\IeC {\c c}o de potencial infinito}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2}El\IeC {\'e}tron em um po\IeC {\c c}o de potencial infinito}{4}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Rede Cristalina}{6}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Rede de Bravis}{7}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1}Rede de Bravis}{6}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Rede Rec\IeC {\'\i }proca}{7}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Primeira zona de Brillouin}{8}{subsubsection.2.2.3}
-\contentsline {subsection}{\numberline {2.3}Potencial Peri\IeC {\'o}dico e Teorema de Bloch}{9}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Potencial Peri\IeC {\'o}dico}{9}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3}Potencial Peri\IeC {\'o}dico e Teorema de Bloch}{8}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Potencial Peri\IeC {\'o}dico}{8}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Teorema de Bloch}{9}{subsubsection.2.3.2}
 \contentsline {subsection}{\numberline {2.4}Teoria de Bandas nos S\IeC {\'o}lidos}{12}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Condutores, semicondutores e isolantes}{13}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1}Condutores, semicondutores e isolantes}{12}{subsubsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.2}Semicondutores \textit {bulk}}{13}{subsubsection.2.4.2}
 \contentsline {subsection}{\numberline {2.5}Heterojun\IeC {\c c}\IeC {\~o}es}{16}{subsection.2.5}
 \contentsline {section}{\numberline {3}Desenvolvimento}{17}{section.3}
@@ -20,4 +20,5 @@
 \contentsline {subsection}{\numberline {3.2}Densidade de estado}{18}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Equa\IeC {\c c}\IeC {\~a}o de Brus}{21}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Propriedades \IeC {\'O}pticas}{24}{subsection.3.4}
+\contentsline {section}{\numberline {4}Aplica\IeC {\c c}\IeC {\~a}o}{25}{section.4}
 \contentsline {section}{Refer\IeC {\^e}ncias}{25}{section*.2}
