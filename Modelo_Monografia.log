@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.20)  7 JUN 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.20)  8 JUN 2017 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1389,7 +1389,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 96.
-[5] <images/figura1.png, id=193, 158.84344pt x 335.00156pt>
+[5] <images/figura1.png, id=198, 158.84344pt x 335.00156pt>
 File: images/figura1.png Graphic file (type png)
 
 <use images/figura1.png>
@@ -1502,7 +1502,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
-[12] <images/figura3.jpg, id=309, 639.5895pt x 213.1965pt>
+[12] <images/figura3.jpg, id=314, 639.5895pt x 213.1965pt>
 File: images/figura3.jpg Graphic file (type jpg)
 
 <use images/figura3.jpg>
@@ -1527,13 +1527,13 @@ Package babel Info: Redefining portuges shorthand "|
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 32.
 
-<images/figura6.jpg, id=324, 458.9145pt x 196.3335pt>
+<images/figura6.jpg, id=329, 458.9145pt x 196.3335pt>
 File: images/figura6.jpg Graphic file (type jpg)
  <use images/figura6.jpg>
 Package pdftex.def Info: images/figura6.jpg used on input line 47.
 (pdftex.def)             Requested size: 331.99031pt x 142.03406pt.
 
-<images/figura7.jpg, id=328, 314.97675pt x 190.91325pt>
+<images/figura7.jpg, id=333, 314.97675pt x 190.91325pt>
 File: images/figura7.jpg Graphic file (type jpg)
 
 <use images/figura7.jpg>
@@ -1551,7 +1551,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
 [14 <./images/figura6.jpg>]
-<images/figura8.jpg, id=341, 204.16275pt x 284.262pt>
+<images/figura8.jpg, id=346, 204.16275pt x 284.262pt>
 File: images/figura8.jpg Graphic file (type jpg)
  <use images/figura8.jpg>
 Package pdftex.def Info: images/figura8.jpg used on input line 94.
@@ -1571,7 +1571,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 98.
 
-<images/figura14.jpg, id=352, 342.68025pt x 251.13824pt>
+<images/figura14.jpg, id=357, 342.68025pt x 251.13824pt>
 File: images/figura14.jpg Graphic file (type jpg)
 
 <use images/figura14.jpg>
@@ -1589,7 +1589,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 112.
 [16 <./images/figura8.jpg> <./images/figura14.jpg>]
-<images/figura15.jpg, id=358, 304.13625pt x 202.95825pt>
+<images/figura15.jpg, id=363, 304.13625pt x 202.95825pt>
 File: images/figura15.jpg Graphic file (type jpg)
 
 <use images/figura15.jpg>
@@ -1613,14 +1613,15 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 5.
 [17 <./images/figura15.jpg>]
-<images/figura9.jpg, id=369, 304.7385pt x 427.5975pt>
+<images/figura9.jpg, id=374, 304.7385pt x 427.5975pt>
 File: images/figura9.jpg Graphic file (type jpg)
  <use images/figura9.jpg>
 Package pdftex.def Info: images/figura9.jpg used on input line 16.
 (pdftex.def)             Requested size: 221.32687pt x 310.55809pt.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
-
+(babel)             in language  on input line 6.
+(./densidade-estados.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.5pt): 
  Make it at least 13.59999pt.
@@ -1628,26 +1629,26 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 8.
 [18 <./images/figura9.jpg>]
-<images/figura10.jpg, id=380, 356.532pt x 172.2435pt>
+<images/figura10.jpg, id=385, 356.532pt x 172.2435pt>
 File: images/figura10.jpg Graphic file (type jpg)
 
 <use images/figura10.jpg>
-Package pdftex.def Info: images/figura10.jpg used on input line 37.
+Package pdftex.def Info: images/figura10.jpg used on input line 16.
 (pdftex.def)             Requested size: 287.72223pt x 139.01184pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 
-<images/figura11.jpg, id=381, 704.6325pt x 173.448pt>
+<images/figura11.jpg, id=386, 704.6325pt x 173.448pt>
 File: images/figura11.jpg Graphic file (type jpg)
 
 <use images/figura11.jpg>
-Package pdftex.def Info: images/figura11.jpg used on input line 46.
+Package pdftex.def Info: images/figura11.jpg used on input line 25.
 (pdftex.def)             Requested size: 354.12434pt x 87.16841pt.
 
 
@@ -1657,15 +1658,15 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 43.
 [19 <./images/figura10.jpg> <./images/figura11.jpg>]
-<images/figura12.jpg, id=397, 434.8245pt x 243.91125pt>
+<images/figura12.jpg, id=402, 434.8245pt x 243.91125pt>
 File: images/figura12.jpg Graphic file (type jpg)
 
 <use images/figura12.jpg>
-Package pdftex.def Info: images/figura12.jpg used on input line 93.
+Package pdftex.def Info: images/figura12.jpg used on input line 72.
 (pdftex.def)             Requested size: 265.59494pt x 148.98662pt.
 
 
@@ -1675,24 +1676,25 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 84.
 [20 <./images/figura12.jpg>]
-<images/figura13.jpg, id=411, 673.3155pt x 391.4625pt>
+<images/figura13.jpg, id=416, 673.3155pt x 391.4625pt>
 File: images/figura13.jpg Graphic file (type jpg)
 
 <use images/figura13.jpg>
-Package pdftex.def Info: images/figura13.jpg used on input line 110.
+Package pdftex.def Info: images/figura13.jpg used on input line 89.
 (pdftex.def)             Requested size: 265.59494pt x 154.41394pt.
-
-Overfull \hbox (11.93292pt too wide) in paragraph at lines 114--115
+)
+Overfull \hbox (11.93292pt too wide) in paragraph at lines 93--8
 []\T1/ppl/m/n/10 Observando os re-sul-ta-dos de den-si-dade de es-ta-dos para o
 s pon-tos quân-ti-cos, comprova-
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 9.
+(./brus.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.5pt): 
  Make it at least 13.59999pt.
@@ -1700,9 +1702,9 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 15.
 [21 <./images/figura13.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -1711,10 +1713,56 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 190.
-[22]))
+(babel)             in language  on input line 74.
+[22])
+Overfull \hbox (1.70212pt too wide) in paragraph at lines 100--11
+[]\T1/ppl/m/n/10 A equa-ção [] des-creve im-por-tan-tís-si-mas con-sequên-cias 
+do efeito de con-fi-na-mento.
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+(./propriedades-opticas.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+[23] <images/figura16.jpg, id=458, 546.843pt x 250.536pt>
+File: images/figura16.jpg Graphic file (type jpg)
+
+<use images/figura16.jpg>
+Package pdftex.def Info: images/figura16.jpg used on input line 10.
+(pdftex.def)             Requested size: 287.72223pt x 131.8239pt.
+
+
+LaTeX Warning: Citation `optica2' on page 24 undefined on input line 23.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.5pt): 
+ Make it at least 14.23604pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+[24 <./images/figura16.jpg>]
+<images/figura17.jpg, id=472, 513.71925pt x 427.5975pt>
+File: images/figura17.jpg Graphic file (type jpg)
+
+<use images/figura17.jpg>
+Package pdftex.def Info: images/figura17.jpg used on input line 36.
+(pdftex.def)             Requested size: 287.72223pt x 239.49863pt.
+))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 102.
  (./bibliografia.tex
@@ -1725,10 +1773,21 @@ Package Fancyhdr Warning: \headheight is too small (12.5pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
-[23])
+(babel)             in language  on input line 6.
+[25 <./images/figura17.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+[26])
 
 Package Fancyhdr Warning: \headheight is too small (12.5pt): 
  Make it at least 13.59999pt.
@@ -1739,14 +1798,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 106.
-[24]
+[27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (./Modelo_Monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `Modelo_Monografia.out' has not changed.
-(rerunfilecheck)             Checksum: EFC8AB2B984156FBAC402F250E3A8E62;1656.
+(rerunfilecheck)             Checksum: 90709A503A40702AA084BB340FA65AC2;1709.
 
 
 LaTeX Warning: There were undefined references.
@@ -1757,32 +1816,35 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 21326 strings out of 494929
- 388116 string characters out of 6180142
- 475128 words of memory out of 5000000
- 23918 multiletter control sequences out of 15000+600000
- 79707 words of font info for 178 fonts, out of 8000000 for 9000
+ 21384 strings out of 494929
+ 388948 string characters out of 6180142
+ 475126 words of memory out of 5000000
+ 23946 multiletter control sequences out of 15000+600000
+ 81790 words of font info for 181 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 62i,18n,56p,856b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rs
-fs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol
-/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Modelo_Monografia.pdf (24 pages, 660709 bytes).
+ 62i,18n,56p,882b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
+syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Modelo_Monografia.pdf (27 pages, 780346 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 159 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 622 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 259 words of extra memory for PDF output out of 10000 (max. 10000000)
 

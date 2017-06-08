@@ -17,6 +17,7 @@
 \contentsline {subsection}{\numberline {2.5}Heterojun\IeC {\c c}\IeC {\~o}es}{16}{subsection.2.5}
 \contentsline {section}{\numberline {3}Desenvolvimento}{17}{section.3}
 \contentsline {subsection}{\numberline {3.1}Confinamento qu\IeC {\^a}ntico e densidade de estados}{17}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Densidade de estado}{18}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Equa\IeC {\c c}\IeC {\~a}o de Brus}{21}{subsubsection.3.1.2}
-\contentsline {section}{Refer\IeC {\^e}ncias}{23}{section*.2}
+\contentsline {subsection}{\numberline {3.2}Densidade de estado}{18}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Equa\IeC {\c c}\IeC {\~a}o de Brus}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Propriedades \IeC {\'O}pticas}{24}{subsection.3.4}
+\contentsline {section}{Refer\IeC {\^e}ncias}{25}{section*.2}

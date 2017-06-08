@@ -1,0 +1,100 @@
+
+\par Como visto anteriormente, no material bulk a estrutura eletrônica dos materiais é constituída por  bandas de energia  e, quando as dimensões do material são reduzidas, haverá uma alteração na estrutura eletrônica do material devido aos efeitos de confinamento. Seria interessante quantificar a relação entre as mudanças na estrutura eletrônica de um ponto quântico com o seu tamanho. Uma equação desse tipo seria muito importante para caracterização de QD’s dado que é possível estimar o tamanho de uma partícula a partir da medição de alguma de suas características eletrônicas, como espectro de emissão. Com esse objetivo, L.E. Brus, um premiado cientista americano, desenvolveu uma teoria que nos fornecesse tal fórmula.
+
+\par Como vimos anteriormente, quando um elétron é excitado da banda de valência para a banda de condução, ele deixa para trás uma região positiva chamada de buraco. A ligação resultante desse par elétron-buraco é o éxciton e pode ser aproximada por um modelo de partícula na caixa da mecânica quântica. Para explicar o comportamento do éxciton, o modelo de Brus será deduzido. A seguinte dedução do teorema de Brus foi baseada na dedução feita por Kippeny et al (2002).
+
+\par O modelo de Brus faz as seguintes aproximações: 
+
+\par 1 - Considera-se um nanocristal esférico e de raio R.
+
+\par 2 - As cargas e espaços ocupados que não são do éxciton são desconsiderados.
+
+\par 3 - A energia potencial fora do nanocristal é infinita, ou seja, o éxciton está sempre dentro da região delimitada pelo raio do nanocristal.
+
+\par Explora-se primeiramente o hamiltoniano de apenas uma partícula carregada (e não um éxciton) num nanocristal:
+
+\begin{align}
+	\label{confinamento_9}
+	\displaystyle \mathcal{H} &= -\frac{\hbar^2}{8\pi^2m_{c}}\nabla^2_{c} + V^{\star}\\
+	\displaystyle 
+		V^{\star} &=
+		\left\{
+          \begin{array}{ll}
+            \displaystyle 0,\ r \leq R\\
+            \displaystyle \infty, r > R
+          \end{array}
+        \right.
+\end{align}
+onde $m_{c}$ é a massa efetiva da carga e $r$ é a distância da carga em relação ao centro do ponto quântico.
+
+\par A solução da equação de Schrodinger para esse caso pode ser obtida como no caso da partícula na caixa. Os autovalores e autovetores modificados para coordenadas esféricas são: 
+
+\begin{align}
+	\label{confinamento_10}
+      \begin{array}{ll}
+        \displaystyle \Psi_n(r) = \frac{1}{r\sqrt{2\pi R}}\sin\left(\frac{n\pi r}{R}\right)\\
+        \displaystyle E_{n} = \frac{\hbar^2 n^2}{8m_{c}R^2},\ n=1,2,3,...
+      \end{array}
+\end{align}
+
+\par Percebe-se que conforme se aumenta o raio do nanocristal, as energias de absorção decrescem.
+Porém, a criação do éxciton envolve um par elétron-buraco. Para esse caso, o Hamiltoniano fica:
+
+\begin{equation}
+	\label{confinamento_11}
+	\mathcal{H} = -\frac{\hbar^2}{8\pi^2 m_{e}}\nabla^2_{e} - \frac{\hbar^2}{8\pi^2 m_{h}}\nabla^2_{h}
+		+ V^{\star}(S_{e}, S_{h}),
+\end{equation}
+onde $S_{e}$ e $S_{h}$ são as posições do elétron e do buraco, respectivamente. $m_{e}$ é a massa efetiva do elétron e $m_{h}$ a massa efetiva do buraco.
+
+\par A parte potencial da equação acima pode ser dividida em duas partes: a primeira parte, para $r<R$, é a atração coulombiana entre o elétron e o buraco, da seguinte maneira:
+
+\begin{equation}
+	\label{confinamento_12}
+	V^{\star}_{Coul}(S_{e}, S_{h}) = -\frac{e^2}{4\pi\epsilon_{b}\epsilon_{0}|S_{e} - S_{h}|}
+\end{equation}
+onde $\epsilon_{b}$ é a constante dielétrica para o material bulk e $\epsilon_{0}$ é a permissividade no vácuo.
+
+\par O segundo termo importante desse potencial é devido ao efeito de polarização. Isso acontece devido à polarização causada no cristal por uma carga. Esse efeito afeta a energia da segunda carga. O termo de polarização é dado por:
+
+\begin{equation}
+	\label{confinamento_13}
+	V^{\star}_{pol}(S_{e}, S_{h}) = \frac{e^2}{2} \sum_{k=1}^{\infty} \alpha_{k}
+		\frac{S_{e}^{2k} + S_{h}^{2k}}{R^{2k+1}}
+\end{equation}
+onde $\alpha$ é dado por:
+
+\begin{equation}
+	\label{confinamento_14}
+	\alpha_{k} = \frac{(\epsilon-1)(k+1)}{4\pi \epsilon_{b} \epsilon_{0}(\epsilon k + k + 1)}; \epsilon = \frac{\epsilon_{b}}{\epsilon_{out}}
+\end{equation}
+onde $\epsilon_{out}$ é a constante dielétrica do meio que cerca o ponto quântico.
+
+\par Combinando as equações \eqref{confinamento_11}, \eqref{confinamento_12}, \eqref{confinamento_13} e \eqref{confinamento_14}, o hamiltoniano total para o sistema elétron-buraco no nanocristal é:
+
+\begin{equation}
+	\label{confinamento_15}
+	\mathcal{H} = - \frac{h^2}{8\pi^2 m_{e}}\nabla_{e}^2 - \frac{h^2}{8\pi^2m_{h}}\nabla_{h}^2 - \frac{e^2}{4\pi \epsilon_{b}\epsilon_{0}|S_{e} - S_{h}} + \frac{e^2}{2} \sum_{k=1}^\infty \alpha_{k} \frac{S_{e}^{2k} + S_{h}^{2k}}{R^{2k+1}}
+\end{equation}
+
+\par É claro perceber que conforme $R$ tende ao infinito, o termo de polarização tende a zero, e a equação acima se torna o hamiltoniano hidrogenoide da forma \textit{bulk}. 
+
+\par Para que se obtenham as energias entre o elétron e o buraco no éxciton, é necessário determinar a função de onda para esse sistema considerando o hamiltoniano acima. Essa função de onda pode ser dada como o produto das funções de menor energia das cargas individuais consideradas nessa dedução. Utilizando uma aproximação de primeira ordem com uma função de onda não correlacionada para esse sistema, temos que:
+
+\begin{equation}
+	\label{confinamento_16}
+	\phi_{ex}(S_{e}, S_{h}) = \Psi_{1}(S_{e})\Psi_{1}(S_{h})
+\end{equation}
+
+\par Aplicando o hamiltoniano da equação \eqref{confinamento_15} na função de onda acima e resolvendo a equação de Schrodinger resultante, é possível mostrar que os autovalores que representam a energia do éxciton são da forma:
+
+\begin{equation}
+	\label{confinamento_17}
+	E_{ex} = \frac{h^2}{8R^2}\left(\frac{1}{m_{e}} + \frac{1}{m_{h}} \right) - \frac{1.8e^2}{4\pi\epsilon_{b}\epsilon_{0}R} + \frac{e^2}{R} \overline{\sum_{k=1}^{\infty} \alpha_{k} \left(\frac{S}{R} \right)^{2k}}
+\end{equation}
+
+\par Essa fórmula é conhecida como Equação de Brus. O primeiro termo da parte direita da equação representa a energia cinética e é bem relevante para pequenos valores de $R$. O segundo termo se refere à atração coulombiana entre as partículas que compõem o éxciton, e o terceiro termo é devido aos efeitos de polarização.
+
+\par Alguns autores\cite{confinamento4}\cite{confinamento5} não consideram o terceiro termo, já que quando o ponto quântico começa a ficar muito pequeno essa equação começa a desviar da realidade por conta de ser levado também em consideração a forma do nanocristal, os efeitos da estrutura cristalina nas bandas de valência e interação quântica entre o elétron e o buraco. Porém  esses tópicos são de mecânica quântica avançada e fogem do escopo deste trabalho\footnote{E do domínio de Mecânica Quântica dos autores.}. 
+
+\par A equação \eqref{confinamento_17} descreve importantíssimas consequências do efeito de confinamento. Primeiramente, observa-se que o gap de energia entre as bandas de valência e condução aumenta num fator $R^{-2}$ conforme o tamanho do nanocristal diminui se os dois últimos termos da equação forem desconsiderados. Além disso, em um nanocristal as bandas contínuas de energia perdem a sua característica de continuidade e se tornam níveis discretos de energia com diferentes números quânticos. Os valores de gap de energia entre as bandas são dados pela soma da energia do gap na forma bulk mais a contribuição dada pela equação \eqref{confinamento_17}. Esses são os resultados centrais deste trabalho e a partir dele serão estudadas algumas propriedades ópticas.
