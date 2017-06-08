@@ -3,7 +3,7 @@
 \par Para conseguir descrever um sistema quântico matematicamente, Erwin Schrödinger desenvolveu a principal equação em torno da mecânica quântica, conhecida como equação de Schrödinger:
 
 \begin{equation}\label{eq_schrodinger_main}
-  \mathcal{H} \cdot \Psi(\mathbf{r}) = \left[ -\frac{\hbar^2}{2m}\nabla^2 + U(\textbf{r}) \right] \cdot \Psi(\mathbf{r}) = \Psi(\mathbf{r})
+  \mathcal{H} \cdot \Psi(\mathbf{r}) = \left[ -\frac{\hbar^2}{2m}\nabla^2 + U(\textbf{r}) \right] \cdot \Psi(\mathbf{r}) = \Psi(\mathbf{r}).
 \end{equation}
 
 \par Na equação \eqref{eq_schrodinger_main}, $\mathcal{H}$ é o operador hamiltoniano, definido por $ -\frac{\hbar^2}{2m}\nabla^2 $\cite{frustrado3}, no qual $\nabla^2$ é o Laplaciano que representa a segunda derivada. Além disso, U(\textbf{r}) é o potencial da partícula numa dada posição \textbf{r}.
@@ -16,7 +16,7 @@
   \par No estudo das várias condições para solução da equação de Schrödinger, o exemplo mais trivial é o caso do elétron livre. Dizer que o elétron move-se livremente no sistema é análogo a dizer que não há nenhum potencial aplicado, ou seja, $U(r) = 0,   \forall r \in \Re^3$. Assim, a equação \eqref{eq_schrodinger_main} torna-se:
 
   \begin{equation}\label{schrodinger_1}
-    -\frac{\hbar^2}{2m}\nabla^2 \Psi(\mathbf{r}) = E \cdot \Psi(\mathbf{r})
+    -\frac{\hbar^2}{2m}\nabla^2 \Psi(\mathbf{r}) = E \cdot \Psi(\mathbf{r}).
   \end{equation}
 
   %TODO - REFERENCIAR
@@ -24,14 +24,14 @@
 
   \begin{equation}
     \label{schrodinger_2}
-    \Psi(x) = Ae^{i\lambda x} + Be^{i\lambda x}  
+    \Psi(x) = Ae^{i\lambda x} + Be^{i\lambda x}  .
   \end{equation}
 
   \par A equação acima implica que:
 
   \begin{equation}
     \label{schrodinger_3}
-    E = \frac{\hbar^2 \lambda^2}{2m}
+    E = \frac{\hbar^2 \lambda^2}{2m}.
   \end{equation}
 
   \par Assim, observa-se que não há restrições para o valor da energia do sistema E. Portanto, conclui-se que a energia do elétron livre é contínua, pois o valor de E varia continuamente entre $0$ e $\infty$.
@@ -44,13 +44,13 @@
 
   \begin{align}\label{schrodinger_4}
       -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) + U(x) \cdot \Psi(x) = E \cdot \Psi(x),\\
-      onde\ V(0)=V(L)\rightarrow \infty\ e\ V(x)=0,\forall x | 0<x<a
+      onde\ V(0)=V(L)\rightarrow \infty\ e\ V(x)=0,\forall x | 0<x<a.
   \end{align}
 
   \par Reaaranjando \eqref{schrodinger_4}:
 
   \begin{equation}\label{schrodinger_5}
-    -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) - [E - U(x)] \cdot \Psi(x) = 0,
+    -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) - [E - U(x)] \cdot \Psi(x) = 0.
   \end{equation}
 
   \par Pelo método de equações diferenciais de segunda ordem, sabe-se que $\Psi(x)=e^{\lambda x}$ é uma boa proposta de solução para a equação. Calculando o laplaciano e substituindo essa proposta de solução na equação de Schrödinger, obtém-se:
@@ -59,7 +59,7 @@
     \label{schrodinger_6}
         \begin{array}{ll}
           \displaystyle \left\{ -\frac{\hbar}{2m}\cdot \lambda^2 - \left[ E - U(x) \right] \right\} \cdot e^{\lambda x} &= 0, e^{\lambda x} \neq 0, \forall x,y \in \Re\\
-          \displaystyle \left\{ -\frac{\hbar}{2m}\cdot \lambda^2 - \left[ E - U(x) \right] \right\} &= 0
+          \displaystyle \left\{ -\frac{\hbar}{2m}\cdot \lambda^2 - \left[ E - U(x) \right] \right\} &= 0.
         \end{array}
   \end{align}
 
@@ -67,21 +67,21 @@
 
   \begin{equation}
     \label{schrodinger_7}
-    \lambda = \pm i\sqrt{\frac{2Em}{\hbar}}
+    \lambda = \pm i\sqrt{\frac{2Em}{\hbar}}.
   \end{equation}
 
   \par Admitindo a combinação linear da solução proposta para os vetores de $\lambda$ obtidos:
 
   \begin{equation}
     \label{schrodinger_8}
-    \Psi(x) = A\cdot e^{+\sqrt{\frac{2Em}{\hbar}}ix} + B\cdot e^{-\sqrt{\frac{2Em}{\hbar}}ix}      
+    \Psi(x) = A\cdot e^{+\sqrt{\frac{2Em}{\hbar}}ix} + B\cdot e^{-\sqrt{\frac{2Em}{\hbar}}ix} .     
   \end{equation}    
 
   \par Pela fórmula de Euler:
 
   \begin{equation}
     \label{schrodinger_9}
-    \Psi(x) = C_{1} \cos \left(  \sqrt{\frac{2Em}{\hbar} \cdot x }  \right) + C_{2}i \sin \left( \sqrt{\frac{2Em}{\hbar} \cdot x }  \right)
+    \Psi(x) = C_{1} \cos \left(  \sqrt{\frac{2Em}{\hbar} \cdot x }  \right) + C_{2}i \sin \left( \sqrt{\frac{2Em}{\hbar} \cdot x }  \right).
   \end{equation}
 
   \par Aplicando a condição de contorno, checa-se em $C_{1}$, então:
@@ -91,7 +91,7 @@
     \begin{array}{ll}
       \Psi(a) = C_{2} \sin \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right) = 0\\
       \sin \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right) = 0\\
-      \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right)^{\frac{1}{2}} = n\cdot\pi,\ n\in\Re\\
+      \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right)^{\frac{1}{2}} = n\cdot\pi,\ n\in\Re.
     \end{array}
   \end{align}
 
@@ -99,13 +99,13 @@
 
   \begin{equation}
     \label{schrodinger_11}
-    E_{n} = \frac{\hbar^2 n^2 \pi^2}{2a^2m},\ n\in\Re
+    E_{n} = \frac{\hbar^2 n^2 \pi^2}{2a^2m},\ n\in\Re.
   \end{equation}
 
-  \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}\cite{frustrado2}.
+  \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}.
 
     \begin{figure}[H]
-      \caption{Formas da função de onda para valores de n entre 1 e 6}
+      \caption{Formas da função de onda para valores de n entre 1 e 6\cite{frustrado2}}
       \centering
       \includegraphics[width=0.25\textwidth]{images/figura1.png}
       \label{fig1}

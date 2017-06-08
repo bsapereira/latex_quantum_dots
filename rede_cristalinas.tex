@@ -1,4 +1,4 @@
-\par Rede cristalina é a designação dada para o conjunto ordenado de partículas que constituem um sólido. Cada cristal é constituído de células unitárias semelhantes que se repetem ao longo do material. A rede cristalina pode ser descrita pela rede de Bravais e pela rede recíproca.\cite{qm_fis2}
+\par Rede cristalina é a designação dada para o conjunto ordenado de partículas que constituem um sólido. Cada cristal é constituído de células unitárias semelhantes que se repetem ao longo do material. A rede cristalina pode ser descrita pela rede de Bravais e pela rede recíproca\cite{qm_fis2}.
 
     \subsubsection{Rede de Bravis}
 
@@ -9,7 +9,7 @@
       \end{equation}
 onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não coplanares, ou seja, são linearmente independentes, e são conhecidos como vetores primitivos e $n_1$, $n_2$, $n_3$ são números inteiros.\cite{qm_fis5}
 
-      \par A rede de Bravais tem a característica de que independente do ponto escolhido para definir o vetor \textbf{R}, há sempre uma preservação da orientação, ou seja, a rede cristalina é a mesma independente de onde se observa.\cite{qm_fis5}
+      \par A rede de Bravais tem a característica de que independente do ponto escolhido para definir o vetor \textbf{R}, há sempre uma preservação da orientação, ou seja, a rede cristalina é a mesma independente de onde se observa\cite{qm_fis5}.
 
     \subsubsection{Rede Recíproca}
 
@@ -18,7 +18,7 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
       \par Como a questão da periodicidade é válida, a relação:
 
       \begin{equation}\label{redeReciproca_eq1}
-        e^{i\mathbf{G}\cdot (\mathbf{r}+\mathbf{R})} = e^{i\mathbf{G}\cdot\mathbf{r}}
+        e^{i\mathbf{G}\cdot (\mathbf{r}+\mathbf{R})} = e^{i\mathbf{G}\cdot\mathbf{r}},
       \end{equation}
       deve ser satisfeita, em que $\mathbf{r}$ é o vetor correspondente à célula primitiva.
 
@@ -26,19 +26,19 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
 
       \begin{align}\label{redeReciproca_eq2}
         e^{i\mathbf{G}\cdot\mathbf{R}}\ast e^{i\mathbf{G}\cdot\mathbf{r}} &= e^{i\mathbf{G}\cdot\mathbf{r}}\\
-        e^{i\mathbf{G}\cdot\mathbf{R}}                                    &= 1
+        e^{i\mathbf{G}\cdot\mathbf{R}}                                    &= 1.
       \end{align}
 
       Ou seja, a rede recíproca pode ser caracterizada pelo conjunto de vetores k que satisfazem a relação \eqref{redeReciproca_eq2}. 
       
-      A rede recíproca é gerada pela transforma de Fourier da rede de Bravais, uma vez que a transformada representa uma mudança de coordenadas de uma função periódica.\cite{qm_fis7} No caso da rede recíproca, ela representa uma mudança para o espaço do momento.\cite{qm_fis8} Como a rede recíproca é definida a partir da rede de Bravais, a segunda é conhecida como rede direta quando associada à rede recíproca.\cite{qm_fis5}
+      A rede recíproca é gerada pela transforma de Fourier da rede de Bravais, uma vez que a transformada representa uma mudança de coordenadas de uma função periódica\cite{qm_fis7}. No caso da rede recíproca, ela representa uma mudança para o espaço do momento\cite{qm_fis8}. Como a rede recíproca é definida a partir da rede de Bravais, a segunda é conhecida como rede direta quando associada à rede recíproca\cite{qm_fis5}.
       
       Os vetores da rede recíproca estão relacionados com os vetores primitivos a partir de:
       
       \begin{align}\label{redeReciproca_eq3}
         \mathbf{b_{1}} &= 2 \Pi \frac{(\mathbf{a_{2}} \times \mathbf{a_{3}})} {\mathbf{a_{1}} \cdot (\mathbf{a_{2}} \times \mathbf{a_{3}})}\\
         \mathbf{b_{2}} &= 2 \Pi \frac{(\mathbf{a_{3}} \times \mathbf{a_{1}})} {\mathbf{a_{1}} \cdot (\mathbf{a_{2}} \times \mathbf{a_{3}})}\\
-        \mathbf{b_{3}} &= 2 \Pi \frac{(\mathbf{a_{1}} \times \mathbf{a_{2}})} {\mathbf{a_{1}} \cdot (\mathbf{a_{2}} \times \mathbf{a_{3}})}
+        \mathbf{b_{3}} &= 2 \Pi \frac{(\mathbf{a_{1}} \times \mathbf{a_{2}})} {\mathbf{a_{1}} \cdot (\mathbf{a_{2}} \times \mathbf{a_{3}})},
       \end{align}
       e devem satisfazer
 
@@ -54,28 +54,29 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
             \displaystyle \delta_{ij} &= 1,\ se \ i = j
           \end{array}
         \right.
+        .
       \end{align}
 
       \par Pode-se escrever o vetor \textbf{k} como:
 
       \begin{equation}\label{redeReciproca_eq5}
-        \mathbf{k} = k_{1}\cdot \mathbf{b_{1}} + k_{2}\cdot \mathbf{b_{2}} + k_{3}\cdot \mathbf{b_{3}}
+        \mathbf{k} = k_{1}\cdot \mathbf{b_{1}} + k_{2}\cdot \mathbf{b_{2}} + k_{3}\cdot \mathbf{b_{3}}.
       \end{equation}
 
       \par De \eqref{redeBravis_eq1} e \eqref{redeReciproca_eq5}, tem-se:
 
       \begin{equation}\label{redeReciproca_eq6}
-        \mathbf{k} \cdot \mathbf{R} = (k_{1} \cdot \mathbf{b_{1}} + k_{2} \cdot \mathbf{b_{2}} + k_{3} \cdot \mathbf{b_{3}})\cdot(n_{1} \cdot \mathbf{a_{1}} + n_{2} \cdot \mathbf{a_{2}} + n_{3} \cdot \mathbf{a_{3}})
+        \mathbf{k} \cdot \mathbf{R} = (k_{1} \cdot \mathbf{b_{1}} + k_{2} \cdot \mathbf{b_{2}} + k_{3} \cdot \mathbf{b_{3}})\cdot(n_{1} \cdot \mathbf{a_{1}} + n_{2} \cdot \mathbf{a_{2}} + n_{3} \cdot \mathbf{a_{3}}).
       \end{equation}
 
       \par Aplicando a equação \eqref{redeReciproca_eq4}, obtém-se:
 
       \begin{equation}\label{redeReciproca_eq6}
-        \mathbf{k} \cdot \mathbf{R} = 2 \Pi (k_{1} \cdot n_{1} + k_{2} \cdot n_{2} + k_{3} + n_{3})
+        \mathbf{k} \cdot \mathbf{R} = 2 \Pi (k_{1} \cdot n_{1} + k_{2} \cdot n_{2} + k_{3} + n_{3}).
       \end{equation}
 
-      \par Para que $e^{i\mathbf{k} \cdot \mathbf{R}} = 1$, $\mathbf{k} \cdot \mathbf{R}$ deve ser múltiplo inteiro de $2 \Pi$. Como os coeficientes $n_{i}$ são inteiros, os coeficientes $k_{i}$ também deve ser. Então \textbf{k} será um vetor da rede recíproca sempre que puder ser escrito como a combinação linear de vetores $\mathbf{b_{i}}$ com coeficientes inteiros. Assim, a rede recíproca é uma rede de Bravais, ao considerar esses vetores como sendo os vetores primitivos. Um ponto importante é que a recíproca da rede recíproca corresponde a rede direta original.\cite{qm_fis5}
+      \par Para que $e^{i\mathbf{k} \cdot \mathbf{R}} = 1$, $\mathbf{k} \cdot \mathbf{R}$ deve ser múltiplo inteiro de $2 \Pi$. Como os coeficientes $n_{i}$ são inteiros, os coeficientes $k_{i}$ também deve ser. Então \textbf{k} será um vetor da rede recíproca sempre que puder ser escrito como a combinação linear de vetores $\mathbf{b_{i}}$ com coeficientes inteiros. Assim, a rede recíproca é uma rede de Bravais, ao considerar esses vetores como sendo os vetores primitivos. Um ponto importante é que a recíproca da rede recíproca corresponde a rede direta original\cite{qm_fis5}.
 
     \subsubsection{Primeira zona de Brillouin}
 
-      A primeira zona de Brillouin representa a célula primitiva de Wigner-Seitz na rede recíproca. Ela é particularmente importante porque representa o conjunto de pontos no espaço recíproco que não cruzam o plano de Bragg. As ondas que se propagam em um potencial periódico podem ser escritas como ondas de Bloch dentro das zonas de Brillouin.\cite{qm_fis6}
+      A primeira zona de Brillouin representa a célula primitiva de Wigner-Seitz na rede recíproca. Ela é particularmente importante porque representa o conjunto de pontos no espaço recíproco que não cruzam o plano de Bragg. As ondas que se propagam em um potencial periódico podem ser escritas como ondas de Bloch dentro das zonas de Brillouin\cite{qm_fis6}.
