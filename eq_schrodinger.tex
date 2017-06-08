@@ -20,7 +20,7 @@
   \end{equation}
 
   %TODO - REFERENCIAR
-  \par A solução para essa equação diferencial de segunda ordem pode ser escrita como REFERENCIAR DENNIS G ZILL:
+  \par A solução para essa equação diferencial de segunda ordem pode ser escrita como\cite{frustrado7}:
 
   \begin{equation}
     \label{schrodinger_2}
@@ -63,32 +63,46 @@
         \end{array}
   \end{align}
 
-    \par ERRRRRRRRRRRRRO Para analisar a energia do elétrons, a partícula será confinada em um poço de potencial infinito, unidimensional em x = [0,L]. Será considerado que a partícula move-se livremente e que não há brechas na barreira de potencial, evitando assim o tunelamento quântico. Reescrevendo a equação \eqref{eq_schrodinger_main} para o caso unidimensional e explicitando as condições de contorno:
+  \par Em $0<x<L, U(x)=0$. Substituindo esse potencial nulo na equação acima, obtém-se $\lambda$\cite{frustrado7}:
 
-    \begin{equation}\label{eq_schrodinger_frustrado}
-      -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) + U(x) \cdot \Psi(x) = E \cdot \Psi(x),
-      \ onde\ V(0)=V(L)=\infty\ e\ V(x)=0,\ 0<x<a
-    \end{equation}
+  \begin{equation}
+    \label{schrodinger_7}
+    \lambda = \pm i\sqrt{\frac{2Em}{\hbar}}
+  \end{equation}
 
-    \par Rearranjando a equação \eqref{eq_schrodinger_frustrado}
+  \par Admitindo a combinação linear da solução proposta para os vetores de $\lambda$ obtidos:
 
-    \begin{equation}\label{eq_schrodinger_frustrado}
-      -\frac{\hbar^2}{2m} \nabla^2 \Psi(x) - [E - U(x)] \cdot \Psi(x) = 0,
-    \end{equation}
+  \begin{equation}
+    \label{schrodinger_8}
+    \Psi(x) = A\cdot e^{+\sqrt{\frac{2Em}{\hbar}}ix} + B\cdot e^{-\sqrt{\frac{2Em}{\hbar}}ix}      
+  \end{equation}    
 
-    \par Pelo método de equações diferencias de segunda ordem, sabemos que $\Psi(x) = e^{\lambda x}$ é uma boa proposta de solução para equação.
+  \par Pela fórmula de Euler:
 
-    \begin{equation}
-      \label{eq_schrodinger_frustrado_1}
-    \end{equation}
+  \begin{equation}
+    \label{schrodinger_9}
+    \Psi(x) = C_{1} \cos \left(  \sqrt{\frac{2Em}{\hbar} \cdot x }  \right) + C_{2}i \sin \left( \sqrt{\frac{2Em}{\hbar} \cdot x }  \right)
+  \end{equation}
 
-   \par Onde, podemos escrever ainda
+  \par Aplicando a condição de contorno, checa-se em $C_{1}$, então:
 
-    \begin{equation}\label{eq_schrodinger_eq1}
-      \Psi(\mathbf{x}) = \left(\frac{1}{L}\right)^\frac{1}{2} sen\left(\frac{n \cdot \pi \cdot x}{L}\right),\ com\ n = 1, 2, ...
-    \end{equation}
+  \begin{align}
+    \label{schrodinger_10} 
+    \begin{array}{ll}
+      \Psi(a) = C_{2} \sin \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right) = 0\\
+      \sin \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right) = 0\\
+      \left(  \sqrt{\frac{2Em}{\hbar} \cdot a }  \right)^{\frac{1}{2}} = n\cdot\pi,\ n\in\Re\\
+    \end{array}
+  \end{align}
 
-    \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}\cite{frustrado2}.
+  \par Conclui-se que
+
+  \begin{equation}
+    \label{schrodinger_11}
+    E_{n} = \frac{\hbar^2 n^2 \pi^2}{2a^2m},\ n\in\Re
+  \end{equation}
+
+  \par Sendo n o número quântico relacionado com o nível de energia em que a partícula se encontra. Pode-se verificar uma equação de onda bem definida (autovetor) para cada valor de nível de energia do sistema (autovalor), exemplificado na figura \ref{fig1}\cite{frustrado2}.
 
     \begin{figure}[H]
       \caption{Formas da função de onda para valores de n entre 1 e 6}
@@ -97,97 +111,20 @@
       \label{fig1}
     \end{figure}
 
-    \par Pela definição clássica da função de onda $\Psi(\mathbf{x})$, temos:
+    \par Como $n \in \Re\setminus 0$, a equação \eqref{schrodinger_11} mostra que somente alguns valores para energia são aceitos no confinamento dentro de uma caixa de tamanho L. A partir disso, conclui-se que os níveis de energia de uma partícula confinada são discretos e que a energia pode ser quantizada\cite{frustrado2}.
 
-    \begin{equation}\label{eq_schrodinger_eq2}
-        \Psi (\mathbf{x}) = A \cdot sen(k \cdot \mathbf{x}) + B \cdot cos(k \cdot \mathbf{x})
-    \end{equation}
 
-    \par Pela equação de Schrödinger, \eqref{eq_schrodinger_eq2} e das condições de contorno para o problema em questão, é possível concluir:
 
-    \begin{equation}\label{eq_schrodinger_eq3}
-      E = \frac{\hbar^2}{8 \pi^2 m} \cdot \frac{n^2\pi^2}{L^2} = \frac{\hbar^2 n^2}{8 m L^2},\ com\ n = 1, 2, ...
-    \end{equation}
 
-    \par Como $n \in \mathcal{Z} - \{0\}$, a equação \eqref{eq_schrodinger_eq3} mostra que somente alguns valores para energia são aceitos no confinamento dentro de uma caixa de tamanho L. A partir disso, conclui-se que os níveis de energia de uma partícula confinada são discretos e que a energia pode ser quantizada\cite{frustrado2}.
 
-    \par Para definir o operador hamiltoniano utilizado para descrever partículas num cristal, começaremos do cristal perfeito, que descreve de maneira geral as relações entre as partículas nesse sistema. A partir dele, serão feitas aproximações para que se chegue no hamiltoniano do elétron livre\cite{qm_fis2}.
 
-    \subsubsection{Hamiltoniano de um Cristal Perfeito}
 
-      \par Para definir o operador hamiltoniano utilizado para descrever partículas num cristal, começaremos do cristal perfeito, que descreve de maneira geral as relações entre as partículas nesse sistema. A partir dele, serão feitas aproximações para que se chegue no hamiltoniano do elétron livre\cite{qm_fis2}. 
+
+
+
+
+
+
+
+
     
-      \par O hamiltoniano do cristal perfeito\cite{frustrado3} é dado por:
-
-      \begin{equation}\label{eq_schrodinger_eq4}
-        \mathcal{H} = 
-          \sum_{i} \frac{p_{i}^2}{2m_{i}} 
-          + \sum_{j} \frac{p_{j}^2}{2m_{j}} 
-          + \frac{1}{2} \sum_{j', j} \frac{Z_{j} Z_{j'} e^2}{4\pi\epsilon_{0}\left|R_{j} - R_{j'}\right|}-  \sum_{j, i} \frac{Z_{j} e^2}{4\pi\epsilon_{0}\left|r_{i} - R_{j}\right|} 
-          + \frac{1}{2} \sum_{i, i'} \frac{e^2}{4\pi\epsilon_{0}\left|r_{i} - r_{i'}\right|}
-      \end{equation}
-
-      \par Na expressão \eqref{eq_schrodinger_eq4}, $\epsilon_{0}$ representa a permissividade no vácuo, $r_{i}$ representa a posição do i-ésimo elétron, $R_{j}$ representa a posição do j-ésimo núcleo, $Z_{j}$ representa o número atômico do núcleo, $p_{i}$ e $p_{j}$ representam o operador momento dos elétrons e o operador momento do núcleo, respectivamente. Além disso, os índices $i'$ e $j'$ são índices não identicos a $i$ e $j$.
-
-      \par Para solucionar o hamiltoniano, leva-se em conta que os elétrons nas camadas totalmente preenchidas estão muito próximos ao núcleo, considerando-os como um pacote. Essa junção de elétrons mais internos com o núcleo atômico forma o que se chama por íon-núcleo.
-    
-      \par A partir disso, serão aplicadas duas aproximações para facilitar a solução do hamiltoniano. A primeira será a aproximação de Born-Oppenheimer.\cite{qm_fis9}
-
-
-      \par Essa aproximação divide os átomos em duas grandes regiões. A primeira região trata o núcleo como uma partícula estática no espaço. Já a segunda região lida somente com as partículas na superfície do sistema.
-
-      \par Aplicando a aproximação de Born-Oppenheimer ao hamiltoniano, pode-se separar os cálculos entre os íons-núcleo e os elétrons na camada de valência. Assim, simplifica-se o hamiltoniano como uma soma de hamiltonianos da relação entre os elétrons de valências, entre os íons-núcleo e entre ambas regiões, da seguinte maneira:
-
-      \begin{equation}\label{eq_schrodinger_eq5}
-        \mathcal{H} = 
-          \mathcal{H}_{ions} (\mathbf{R}_{j}) 
-          + \mathcal{H}_{e}(\mathbf{r}_{i}, \mathbf{R}_{j_{0}})
-          + \mathcal{H}_{e-ion}(\mathbf{r}_i, \delta\mathbf{R}_j)
-      \end{equation}
-
-      \par Nessa expressão, $\mathcal{H}_{ions}(\mathbf{R}_{j})$ é o hamiltoniano referente às interações entre os íons-núcleo que se movimentam devido aos seus potenciais iônicos; $\mathcal{H}_{e}(\mathbf{r}_{i},\mathbf{R}_{j_{0}})$ é o hamiltoniano referente às interações elétron-elétron, considerando os íons-núcleo estáticos e congelados na posição de equilíbrio $\mathbf{R}_{j_{0}}$; $\mathcal{H}_{e-ion}(\mathbf{r}_{i},\delta\mathbf{R}_{j})$ é o hamiltoniano que descreve a interação elétron-íon, caracterizando a variação na energia eletrônica causada pelo deslocamento $\delta\mathbf{R}_{j}$ dos íons-núcleo em relação ao seu ponto de equilíbrio $\mathbf{R}_{j_{0}}$.
-      
-      \par Escrevendo o hamiltoniano do cristal perfeito, retirando os termos referentes unicamente ao núcleo e mantendo as interações elétron-elétron, obtém-se:
-
-      \begin{equation}\label{eq_schrodinger_eq6}
-        \mathcal{H}_{e} = 
-          \sum_{i} \frac{p_{i}^2}{2m_{i}} 
-          -  \sum_{j, i} \frac{Z_{j} e^2}{4\pi\epsilon_{0}\left|r_{i} - R_{j_{0}}\right|} 
-          + \frac{1}{2} \sum_{i, i'} \frac{e^2}{4\pi\epsilon_{0}\left|r_{i} - r_{i'}\right|}
-      \end{equation}
-
-      \par Para simplificar a equação \eqref{eq_schrodinger_eq6}, será utilizada a aproximação \textit{mean-field}\cite{qm_fis10}. Essa aproximação consiste na escolha de um local arbitrário para o elétron no sistema e na consideração de que os outros graus de liberdade se encontram estáticos se utilizarmos seu valor médio. Aplicando o hamiltoniano somente em um elétron, tem-se que:
-
-      \begin{equation}\label{eq_schrodinger_eq7}
-        \mathcal{H}_{1e} = \frac{p^2}{2m}
-      \end{equation}
-
-      Considerando que o operador momento,na mecânica quântica, é definido por\cite{qm_fis11}:
-
-      \begin{equation}\label{eq_schrodinger_eq8}
-        p = -i\hbar\frac{d}{dx} \Longrightarrow
-        p^2 = -\hbar^2 \frac{d^2}{dx^2} \Longrightarrow
-        p^2 = -\hbar^2 \nabla^2
-      \end{equation}
-
-      Aplicando \eqref{eq_schrodinger_eq8} em \eqref{eq_schrodinger_eq7}, tem-se:
-
-      \begin{equation}\label{eq_schrodinger_eq9}
-        \mathcal{H}_{1e} = - \frac{\hbar^2}{2m}\nabla^2
-      \end{equation}
-
-      Define-se assim, o operador hamiltonia para o caso considerado. Aplicando a equação de Schrödinger ao caso do elétron livre, no qual o potencial U(\textbf{r}) é igual a zero, tem-se que:
-
-      \begin{equation}\label{eq_schrodinger_eq10}
-        \mathcal{H} \cdot \Psi(\mathbf{r}) =
-          -\frac{\hbar^2}{2m} \nabla^2 \Psi(\mathbf{r}) =
-          E \cdot \Psi(\mathbf{r})
-      \end{equation}
-
-      Com autovalores de energia dados por:
-
-      \begin{equation}\label{eq_schrodinger_autovalores}
-        E = \frac{\hbar^2 k^2}{2m}
-      \end{equation}
-
-      Em uma rede cristalina, o elétron sofre influência de um potencial. Esse potencial pode ser tratado como um potencial periódico\cite{qm_fis5} em alguns casos e será explicado a seguir.

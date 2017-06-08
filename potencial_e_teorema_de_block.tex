@@ -33,8 +33,7 @@
 	\par Os subíndices $n$ e $k$ serão explicados no final da prova do Teorema de Bloch, mas sua omissão não comprometará o entendimento do desenvolvimento a seguir.
 
 
-
-	\subsubsection{Condição de Contorno de Born-Von Karman}
+	\par \textbf{- Condição de Contorno de Born-Von Karman}
 
 		\par Serão aplicadas as condições de contorno para que as funções de onda sejam periódicas.
 		
@@ -50,7 +49,7 @@
 	        \right.
 	      \end{align}
 		
-		\par A equação (2.5) é conhecida como condição de contorno de Born-Von Karman de periodicidade macroscópica.  Como nem sempre a rede de Bravais é cúbica, generaliza-se a condição de contorno para:
+		\par A equação \eqref{bloch_4} é conhecida como condição de contorno de Born-Von Karman de periodicidade macroscópica.  Como nem sempre a rede de Bravais é cúbica, generaliza-se a condição de contorno para:
 
 		\begin{equation}
 			\label{blochh_5}
@@ -95,8 +94,16 @@
 		\par Uma exponencial complexa pode ser escrita em função de senos e cossenos, através da fórmula de Euler. Observa-se que a relação acima será válida sempre que $2\pi$ estiver sendo multiplicado por um número inteiro. Como $Ni$ é um número inteiro e $\mathbf{k}i$ também, pode-se definir $\mathbf{k}i$ em função de $Ni$:
 
 		\begin{equation}
+			\label{bloch_a}
+			ki = \frac{mi}{Ni},\ com\ mi\ inteiro
+		\end{equation}
+
+		\par Assim, a forma geral dos vetores de onda de Bloch permitidos é:
+
+
+		\begin{equation}
 			\label{bloch_11}
-			\mathbf{k} = \sum_{i=1}^3 \frac{mi}{Ni} \cdot \mathbf{b}i,\ onde\ mi\ é\ inteiro.
+			\mathbf{k} = \sum_{i=1}^3 \frac{mi}{Ni} \cdot \mathbf{b}i,
 		\end{equation}
 
 		\par É definido que o elemento de volume, ou seja, o menor volume $\Delta\mathbf{k}$ da rede recíproca é formado pelo paralelepípedo com arestas $\frac{bi}{Ni}$, que pode ser escrito pelo produto misto:
@@ -116,7 +123,7 @@
 
 		\par Ao construir o teorema de Bloch para esse volume, ele se torna válido para toda a rede cristalina devido a sua periodicidade.
 
-	\subsubsection{Prova do Teorema de Bloch}
+	\par \textbf{- Prova do Teorema de Bloch}
 
 	\par Para realizar a prova desse teorema, parte-se do princípio de que qualquer função que atenda às condições de Born-Von Karman pode ser expandida em ondas planas, sendo que essa expansão é feita por séries de Fourier. 
 	

@@ -29,7 +29,7 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
         e^{i\mathbf{G}\cdot\mathbf{R}}                                    &= 1
       \end{align}
 
-      Ou seja, a rede recíproca pode ser caracterizada pelo conjunto de vetores K que satisfazem a relação \eqref{redeReciproca_eq2}. 
+      Ou seja, a rede recíproca pode ser caracterizada pelo conjunto de vetores k que satisfazem a relação \eqref{redeReciproca_eq2}. 
       
       A rede recíproca é gerada pela transforma de Fourier da rede de Bravais, uma vez que a transformada representa uma mudança de coordenadas de uma função periódica.\cite{qm_fis7} No caso da rede recíproca, ela representa uma mudança para o espaço do momento.\cite{qm_fis8} Como a rede recíproca é definida a partir da rede de Bravais, a segunda é conhecida como rede direta quando associada à rede recíproca.\cite{qm_fis5}
       
@@ -45,7 +45,7 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
       \begin{equation}\label{redeReciproca_eq4}
         \mathbf{b_{i}}\cdot \mathbf{a_{j}} = 2\Pi \delta_{ij},
       \end{equation}
-      onde $\delta_{ij}$ representa o \textit{delta de Kronecker}, que obedece a seguinte relação:
+      onde $\delta_{ij}$ representa o \textit{delta de kronecker}, que obedece a seguinte relação:
 
       \begin{align}\label{delta_kronecker_sistema}
         \left\{
@@ -56,25 +56,25 @@ onde $\mathbf{a_{1}}$, $\mathbf{a_{2}}$, $\mathbf{a_{3}}$ são vetores não copl
         \right.
       \end{align}
 
-      \par Pode-se escrever o vetor \textbf{K} como:
+      \par Pode-se escrever o vetor \textbf{k} como:
 
       \begin{equation}\label{redeReciproca_eq5}
-        \mathbf{K} = k_{1}\cdot \mathbf{b_{1}} + k_{2}\cdot \mathbf{b_{2}} + k_{3}\cdot \mathbf{b_{3}}
+        \mathbf{k} = k_{1}\cdot \mathbf{b_{1}} + k_{2}\cdot \mathbf{b_{2}} + k_{3}\cdot \mathbf{b_{3}}
       \end{equation}
 
       \par De \eqref{redeBravis_eq1} e \eqref{redeReciproca_eq5}, tem-se:
 
       \begin{equation}\label{redeReciproca_eq6}
-        \mathbf{K} \cdot \mathbf{R} = (k_{1} \cdot \mathbf{b_{1}} + k_{2} \cdot \mathbf{b_{2}} + k_{3} \cdot \mathbf{b_{3}})\cdot(n_{1} \cdot \mathbf{a_{1}} + n_{2} \cdot \mathbf{a_{2}} + n_{3} \cdot \mathbf{a_{3}})
+        \mathbf{k} \cdot \mathbf{R} = (k_{1} \cdot \mathbf{b_{1}} + k_{2} \cdot \mathbf{b_{2}} + k_{3} \cdot \mathbf{b_{3}})\cdot(n_{1} \cdot \mathbf{a_{1}} + n_{2} \cdot \mathbf{a_{2}} + n_{3} \cdot \mathbf{a_{3}})
       \end{equation}
 
       \par Aplicando a equação \eqref{redeReciproca_eq4}, obtém-se:
 
       \begin{equation}\label{redeReciproca_eq6}
-        \mathbf{K} \cdot \mathbf{R} = 2 \Pi (k_{1} \cdot n_{1} + k_{2} \cdot n_{2} + k_{3} + n_{3})
+        \mathbf{k} \cdot \mathbf{R} = 2 \Pi (k_{1} \cdot n_{1} + k_{2} \cdot n_{2} + k_{3} + n_{3})
       \end{equation}
 
-      \par Para que $e^{i\mathbf{K} \cdot \mathbf{R}} = 1$, $\mathbf{K} \cdot \mathbf{R}$ deve ser múltiplo inteiro de $2 \Pi$. Como os coeficientes $n_{i}$ são inteiros, os coeficientes $k_{i}$ também deve ser. Então \textbf{K} será um vetor da rede recíproca sempre que puder ser escrito como a combinação linear de vetores $\mathbf{b_{i}}$ com coeficientes inteiros. Assim, a rede recíproca é uma rede de Bravais, ao considerar esses vetores como sendo os vetores primitivos. Um ponto importante é que a recíproca da rede recíproca corresponde a rede direta original.\cite{qm_fis5}
+      \par Para que $e^{i\mathbf{k} \cdot \mathbf{R}} = 1$, $\mathbf{k} \cdot \mathbf{R}$ deve ser múltiplo inteiro de $2 \Pi$. Como os coeficientes $n_{i}$ são inteiros, os coeficientes $k_{i}$ também deve ser. Então \textbf{k} será um vetor da rede recíproca sempre que puder ser escrito como a combinação linear de vetores $\mathbf{b_{i}}$ com coeficientes inteiros. Assim, a rede recíproca é uma rede de Bravais, ao considerar esses vetores como sendo os vetores primitivos. Um ponto importante é que a recíproca da rede recíproca corresponde a rede direta original.\cite{qm_fis5}
 
     \subsubsection{Primeira zona de Brillouin}
 
